@@ -26,6 +26,10 @@ const config = {
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      },
+      {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
@@ -34,8 +38,13 @@ const config = {
         ]
       },
       {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        test: /\.(jpg|png|svg)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 25000
+          }
+        }
       },
       {
         test: /\.scss$/,
