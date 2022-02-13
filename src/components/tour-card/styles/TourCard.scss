@@ -1,0 +1,36 @@
+.tour-card {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+
+  &:hover {
+    .tour-card__information {
+      background-color: rgba(182, 51, 39, 0.9);
+    }
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+  &__information {
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    padding: 20px 15px 15px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    &__name {
+      line-height: 32px;
+    }
+
+    &__price {
+      margin-left: auto;
+    }
+  }
+}

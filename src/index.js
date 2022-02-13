@@ -1,10 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App'
 import './styles/index.scss'
-
-const App = () => {
-  return <div>Home Page42233</div>
-}
 
 ReactDOM.render(<App />, document.getElementById('root'))
 
