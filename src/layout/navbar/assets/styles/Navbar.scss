@@ -9,7 +9,6 @@
 
   @media (max-width: 990px) {
     flex-direction: column;
-    height: 400px;
 
     width: 100%;
     .navigation {
@@ -25,21 +24,22 @@
       width: 100%;
       &--open {
         background-color: #b63327;
-        padding-left: 30px;
+        padding-left: 82px;
+        height: 400px;
       }
 
       &__hamburger {
         margin-top: 20px;
         position: absolute;
         cursor: pointer;
-        right: 20px;
+        left: 20px;
       }
 
       &__close {
         margin-top: 20px;
         position: absolute;
         cursor: pointer;
-        right: 20px;
+        left: 20px;
       }
 
       .nav-links {
