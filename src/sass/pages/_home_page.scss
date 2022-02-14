@@ -1,6 +1,25 @@
 .home {
   &__swiper {
   }
+  &-category__header {
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 40px 0;
+    }
+
+    &__title {
+      border-bottom: 3px solid #b63327;
+      text-align: center;
+    }
+    &__description {
+      color: #b63327;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
   &__popular-tours {
     &__header {
       display: flex;
@@ -10,7 +29,7 @@
       margin: 40px 0;
 
       &__description {
-        font-size: 12px;
+        font-size: 1.75rem;
         font-weight: 700;
         color: #b63327;
       }
@@ -27,7 +46,7 @@
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.25rem;
   background: #fff;
 
   /* Center slide text vertically */

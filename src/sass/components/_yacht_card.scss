@@ -1,0 +1,91 @@
+.yacht-card {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin: 10px 0;
+
+  &:hover {
+    .yacht-card__information {
+      background-color: rgba(182, 51, 39, 0.9);
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__information {
+    display: flex;
+    transition: 0.3s;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    padding: 20px 10px 15px 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #fff;
+    justify-content: space-between;
+
+    .items {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      font-size: 0.75rem;
+    }
+
+    .icon {
+      margin-right: 5px;
+    }
+
+    &--left {
+      flex-shrink: 0;
+      &__location {
+        @extend .items;
+        img {
+          @extend .icon;
+        }
+      }
+
+      &__capacity {
+        @extend .items;
+        img {
+          @extend .icon;
+        }
+      }
+      &__min-day {
+        @extend .items;
+        img {
+          @extend .icon;
+        }
+      }
+    }
+
+    &--right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
+      &__name {
+        text-align: right;
+        @extend .items;
+        font-size: 1.25rem !important;
+        @media only screen and (max-width: $bp-medium-screen) {
+          font-size: 1rem !important;
+        }
+        img {
+          @extend .icon;
+        }
+      }
+      &__price {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

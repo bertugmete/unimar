@@ -2,7 +2,6 @@ import React from 'react'
 import EnglishPng from './images/england.png'
 import TurkishPng from './images/turkey.png'
 import RussianPng from './images/russia.png'
-import './Language.scss'
 
 const Language = () => {
   return (
