@@ -1,0 +1,17 @@
+.nav-links {
+  display: flex;
+
+  &__item {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+
+    &:hover {
+      border-bottom: 2px solid #ffffff;
+      color: #ffffff;
+    }
+  }
+}
