@@ -11,6 +11,7 @@ import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
 import YachtCard from '../components/yacht-card/YachtCard'
 import RentCar from '../components/rent-car/RentCar'
+import MapContainer from '../components/map/Map'
 
 const HomePage = () => {
   return (
@@ -130,6 +131,7 @@ const HomePage = () => {
           </div>
         </Container>
       </Container>
+      <MapContainer />
     </div>
   )
 }
