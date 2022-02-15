@@ -16,6 +16,7 @@
 
     img {
       width: 100%;
+      border-radius: 10px;
     }
   }
 
@@ -32,6 +33,8 @@
     font-weight: 700;
     color: #fff;
     justify-content: space-between;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 
     .items {
       margin: 5px 0;
@@ -46,6 +49,11 @@
 
     &--left {
       flex-shrink: 0;
+      @media only screen and (max-width: $bp-medium-screen) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
       &__location {
         @extend .items;
         img {

@@ -1,0 +1,74 @@
+.rent-car {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin: 10px 0;
+  flex-direction: column;
+  text-decoration: none;
+  -webkit-box-shadow: 0 2px 10px rgb(0 0 0 / 15%);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 15%);
+  border-radius: 5%;
+
+  &__image {
+    &__wrapper {
+      width: 100%;
+      height: auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 700;
+    align-items: center;
+    padding: 10px;
+
+    &__name {
+      margin: 5px 0;
+      font-size: 1.2rem;
+      color: #000;
+      padding: 5px 0;
+      border-bottom: 2px solid #5d646d;
+    }
+
+    &__type {
+      margin: 5px 0;
+      font-size: 1.2rem;
+      color: #5d646d;
+    }
+
+    &__detail {
+      display: flex;
+      align-items: center;
+      color: #5d646d;
+
+      img {
+        margin-right: 5px;
+      }
+
+      &__fuel {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+      }
+
+      &__people {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+      }
+
+      &__gear {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+      }
+    }
+  }
+}

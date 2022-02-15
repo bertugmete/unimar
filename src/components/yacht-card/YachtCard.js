@@ -15,24 +15,24 @@ const YachtCard = () => {
       <div className="yacht-card__information">
         <div className="yacht-card__information--left">
           <div className="yacht-card__information--left__location">
-            <img src={PinSvg} width={24} height={24} alt="pin" />
+            <img src={PinSvg} width={18} height={18} alt="pin" />
             <span>Marmaris Marina</span>
           </div>
           <div className="yacht-card__information--left__capacity">
-            <img src={BedSvg} width={24} height={24} alt="bed" />
+            <img src={BedSvg} width={18} height={18} alt="bed" />
             <span>1 Kabin 2 kişi</span>
           </div>
           <div className="yacht-card__information--left__min-day">
-            <img width={24} height={24} src={DateSvg} alt="date" />
+            <img width={18} height={18} src={DateSvg} alt="date" />
             <span>Min. gün: 1</span>
           </div>
         </div>
         <div className="yacht-card__information--right">
           <div className="yacht-card__information--right__name">ELAN 1923 IMPRESSION</div>
           <div className="yacht-card__information--right__stars">
-            <img src={StarSvg} width={16} height={16} alt="star" />
-            <img src={StarSvg} width={16} height={16} alt="star" />
-            <img src={StarSvg} width={16} height={16} alt="star" />
+            <img src={StarSvg} width={18} height={18} alt="star" />
+            <img src={StarSvg} width={18} height={18} alt="star" />
+            <img src={StarSvg} width={18} height={18} alt="star" />
           </div>
           <div className="yacht-card__information--right__price">200 ₺</div>
         </div>

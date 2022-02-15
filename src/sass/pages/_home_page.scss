@@ -11,6 +11,13 @@
     }
 
     &__title {
+      font-size: 1.875rem;
+      line-height: 40px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      @media only screen and (max-width: $bp-medium-screen) {
+        font-size: 1.25rem;
+      }
       border-bottom: 3px solid #b63327;
       text-align: center;
     }
@@ -18,6 +25,10 @@
       color: #b63327;
       margin-top: 10px;
       text-align: center;
+
+      @media only screen and (max-width: $bp-medium-screen) {
+        font-size: 1rem;
+      }
     }
   }
   &__popular-tours {
@@ -36,6 +47,9 @@
     }
     &__list {
     }
+  }
+
+  &__rent-car {
   }
 }
 

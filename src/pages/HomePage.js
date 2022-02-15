@@ -10,6 +10,7 @@ import 'swiper/css/navigation'
 import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
 import YachtCard from '../components/yacht-card/YachtCard'
+import RentCar from '../components/rent-car/RentCar'
 
 const HomePage = () => {
   return (
@@ -85,7 +86,7 @@ const HomePage = () => {
                 En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz
               </p>
             </div>
-            <Row className="yacht-row">
+            <Row className="row-margin">
               <Col xs="12" md="4" lg="4">
                 <YachtCard />
               </Col>
@@ -103,6 +104,27 @@ const HomePage = () => {
               </Col>
               <Col xs="12" md="4" lg="4">
                 <YachtCard />
+              </Col>
+            </Row>
+          </div>
+        </Container>
+        <Container>
+          <div className="home__rent-car">
+            <div className="home-category__header__wrapper">
+              <h2 className="home-category__header__title">Günlük Araç Kiralama</h2>
+            </div>
+            <Row className="row-margin">
+              <Col xs="12" md="3" lg="3">
+                <RentCar />
+              </Col>
+              <Col xs="12" md="3" lg="3">
+                <RentCar />
+              </Col>
+              <Col xs="12" md="3" lg="3">
+                <RentCar />
+              </Col>
+              <Col xs="12" md="3" lg="3">
+                <RentCar />
               </Col>
             </Row>
           </div>
