@@ -1,0 +1,38 @@
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+
+  &__information {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      margin-bottom: 5px;
+    }
+
+    &__description {
+      color: #5d646d;
+      font-size: 0.875rem;
+    }
+  }
+
+  &__change {
+    display: flex;
+    align-items: center;
+
+    &__value {
+      padding: 8px;
+      border-radius: 8px;
+      background-color: rgba(128, 137, 150, 0.08);
+    }
+    &__button {
+      background-color: #fcede8;
+      padding: 8px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 0 8px;
+    }
+  }
+}

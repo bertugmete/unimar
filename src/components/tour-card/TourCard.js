@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const TourCard = ({ image, name, price }) => {
   return (
-    <Link className="tour-card">
+    <Link className="tour-card" to="/jeep-safari">
       <img src={image} alt={image} className="tour-card__image" />
       <div className="tour-card__information">
         <p className="tour-card__information__name">{name}</p>

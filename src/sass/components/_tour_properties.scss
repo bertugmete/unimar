@@ -1,0 +1,12 @@
+.tour-properties {
+  &__title {
+    border-top: 1px solid #e1e1e1;
+    padding: 10px;
+  }
+
+  &__button {
+    @media (max-width: 990px) {
+      width: 100%;
+    }
+  }
+}

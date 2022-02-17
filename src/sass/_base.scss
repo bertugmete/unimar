@@ -93,6 +93,7 @@ video {
   vertical-align: baseline;
   font-family: 'Raleway', 'Helvetica Neue', Arial, Verdana, sans-serif;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -107,17 +108,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -125,6 +130,7 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -147,9 +153,51 @@ html {
 }
 
 h2 {
-
 }
 
 .row-margin {
   margin: 20px 0;
+}
+
+.btn-primary {
+  background-color: #ef6c00;
+  border: none;
+
+  &:hover {
+    background-color: #e65100;
+  }
+
+  &:active {
+    background-color: #e65100;
+  }
+
+  &:focus {
+    background-color: #e65100;
+  }
+}
+
+.btn-passive {
+  border: none;
+  background-color: #fcede8;
+  color: #000000;
+}
+
+.btn-active {
+  border: none;
+  background: #ef6c00;
+  color: #fff;
+}
+
+.page {
+  margin-top: 90px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  &__wrapper {
+    background: #fcede8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 10px;
+  }
 }

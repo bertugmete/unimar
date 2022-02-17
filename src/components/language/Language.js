@@ -6,14 +6,14 @@ import RussianPng from './images/russia.png'
 const Language = () => {
   return (
     <div className="languages">
-      <div className="languages__item">
-        <img width={18} height={18} src={TurkishPng} alt="turkish" />
+      <div className="languages__item icon__wrapper">
+        <img width={24} height={24} src={TurkishPng} alt="turkish" />
       </div>
-      <div className="languages__item">
-        <img width={18} height={18} src={EnglishPng} alt="english" />
+      <div className="languages__item icon__wrapper">
+        <img width={24} height={24} src={EnglishPng} alt="english" />
       </div>
-      <div className="languages__item">
-        <img width={18} height={18} src={RussianPng} alt="russian" />
+      <div className="languages__item icon__wrapper">
+        <img width={24} height={24} src={RussianPng} alt="russian" />
       </div>
     </div>
   )
