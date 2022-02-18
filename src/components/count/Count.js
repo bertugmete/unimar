@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import MinusSvg from './assets/images/minus.svg'
 import PlusSvg from './assets/images/plus.svg'
 import { Col, Row } from 'react-bootstrap'
+import CountInput from "./CountInput";
 
-const Count = ({ decrement, increment, value, title, description }) => {
+const Count = ({ decrement, increment, value, title, description, name }) => {
   return (
     <Row>
       <Col>
@@ -17,7 +18,9 @@ const Count = ({ decrement, increment, value, title, description }) => {
             <div className="count__change__button" onClick={decrement}>
               <img height={18} width={18} src={MinusSvg} alt="minus" />
             </div>
-            <div className="count__change__value">{value}</div>
+            <div className="count__change__value">
+              <CountInput value={value} name={name} disabled />
+              </div>
             <div className="count__change__button" onClick={increment}>
               <img height={18} width={18} src={PlusSvg} alt="minus" />
             </div>

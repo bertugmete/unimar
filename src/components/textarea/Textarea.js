@@ -1,11 +1,12 @@
-import React from 'react'
-import { FloatingLabel, Form } from 'react-bootstrap'
+import React from "react";
+import { FloatingLabel, Form } from "react-bootstrap";
 
-const Input = ({ label, name, onChange, value, type, defaultValue, className, placeholder, ...props }) => {
+const Textarea = ({ label, name, onChange, value, type, defaultValue, className, placeholder, ...props }) => {
   return (
     <Form.Group className="mb-3">
       <FloatingLabel controlId="floatingInput" className="mb-3" label={label}>
         <Form.Control
+          as="textarea"
           className={className}
           name={name}
           onChange={onChange}
@@ -20,4 +21,4 @@ const Input = ({ label, name, onChange, value, type, defaultValue, className, pl
   )
 }
 
-export default Input
+export default Textarea
