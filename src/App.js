@@ -1,26 +1,41 @@
-import React from 'react'
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
-import HomePage from './pages/HomePage'
-import Header from './layout/header/Header'
-import JeepSafari from './pages/JeepSafari'
-import BoatTour from './pages/BoatTour'
+import React from "react";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import HomePage from "./pages/HomePage";
+import Header from "./layout/header/Header";
+import JeepSafari from "./pages/JeepSafari";
+import BoatTour from "./pages/BoatTour";
 import Whatsapp from "./components/whatsapp/Whatsapp";
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
-    <div>
-      <Router>
-        <Header />
-        <Whatsapp />
-        <Switch>
-          <Route exact path="/" render={HomePage} />
-          <Route path="/boat-tour" render={BoatTour} />
-          <Route path="/jeep-safari" render={JeepSafari} />
-          <Redirect to="/" />
-        </Switch>
-      </Router>
-    </div>
-  )
-}
+    <>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+      <div>
+        <Router>
+          <Header />
+          <Whatsapp />
+          <Switch>
+            <Route exact path="/" render={HomePage} />
+            <Route path="/boat-tour" render={BoatTour} />
+            <Route path="/jeep-safari" render={JeepSafari} />
+            <Redirect to="/" />
+          </Switch>
+        </Router>
+      </div>
+    </>
+  );
+};
 
-export default App
+export default App;

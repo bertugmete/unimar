@@ -201,3 +201,11 @@ h2 {
     padding: 10px;
   }
 }
+.nav-link {
+  background-color: #fcede8;
+  color: #000;
+}
+.nav-link.active {
+  background: #ef6c00 !important;
+  color: #fff !important;
+}

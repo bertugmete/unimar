@@ -4,8 +4,10 @@ import Count from "../../components/count/Count";
 import { Button } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import Textarea from "../../components/textarea/Textarea";
+import Constants from "../../components/notification-toast/helper";
+import { notificationToast } from "../../components/notification-toast/NotificationToast";
 
-const BookNow = ({price}) => {
+const BookNow = ({ price }) => {
   let [adultCount, setAdultCount] = React.useState(1);
   let [childCount, setChildCount] = React.useState(0);
   let [infantCount, setInfantCount] = React.useState(0);
@@ -35,10 +37,16 @@ const BookNow = ({price}) => {
       note
     }, "user_W8PNoQrAIlO8W9Q8t9NGH")
       .then((result) => {
-          alert("Message Sent, We will get back to you shortly", result.text);
+          notificationToast(
+            Constants.SUCCESS,
+            "Bilgileriniz bize ulaşmıştır, en kısa sürede iletişime geçeceğiz."
+          );
         },
         (error) => {
-          alert("An error occurred, Please try again", error.text);
+          notificationToast(
+            Constants.ERROR,
+            "Hata oluştu, lütfen tekrar deneyiniz."
+          );
         });
   };
 
