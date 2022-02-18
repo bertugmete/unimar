@@ -27,7 +27,7 @@
     overflow: hidden;
     position: absolute;
     width: 100%;
-    padding: 20px 10px 15px 10px;
+    padding: 5px 10px 15px 10px;
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 0.875rem;
     font-weight: 700;
@@ -37,15 +37,19 @@
     border-bottom-left-radius: 10px;
 
     .items {
-      margin: 5px 0;
       display: flex;
       align-items: center;
       font-size: 0.75rem;
     }
 
-    .icon {
-      margin-right: 5px;
+    &__image {
+      background: #fcede8;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      padding: 4px;
+      margin: 3px 3px 3px 0;
     }
+
 
     &--left {
       flex-shrink: 0;
@@ -56,22 +60,14 @@
       }
       &__location {
         @extend .items;
-        img {
-          @extend .icon;
-        }
+
       }
 
       &__capacity {
         @extend .items;
-        img {
-          @extend .icon;
-        }
       }
       &__min-day {
         @extend .items;
-        img {
-          @extend .icon;
-        }
       }
     }
 
@@ -86,9 +82,6 @@
         font-size: 1.25rem !important;
         @media only screen and (max-width: $bp-medium-screen) {
           font-size: 1rem !important;
-        }
-        img {
-          @extend .icon;
         }
       }
       &__price {
