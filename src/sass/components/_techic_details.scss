@@ -1,0 +1,33 @@
+.technic-details {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  overflow: hidden;
+
+  &__title {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    background-color: #ef6c00;
+    color: #ffffff;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ced4da;
+    &:last-child {
+      border-bottom: none;
+    }
+    &__title {
+      color: #5c596d;
+      font-size: 1.125rem;
+    }
+
+    &__description {
+      color: #aaaaaa;
+      font-size: 1rem;
+    }
+  }
+}

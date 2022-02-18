@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import Textarea from "../../components/textarea/Textarea";
 
-const BookNow = () => {
+const BookNow = ({price}) => {
   let [adultCount, setAdultCount] = React.useState(1);
   let [childCount, setChildCount] = React.useState(0);
   let [infantCount, setInfantCount] = React.useState(0);
@@ -49,7 +49,7 @@ const BookNow = () => {
           <h3>Rezervasyon Yap</h3>
         </div>
         <div className="book-now__price mt-2 mb-2">
-          <span>Kişi başı: 500₺</span>
+          <span>{price}</span>
         </div>
         <div className="book-now__customer-information mt-2">
           <Input name="nameSurname" label="Ad Soyad" value={nameSurname}

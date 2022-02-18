@@ -15,14 +15,9 @@
     margin: 15px 0;
 
     &__item {
+      margin: 5px 0;
       display: flex;
       align-items: center;
-
-      @media (max-width: 990px) {
-        margin: 5px 0;
-      }
-
-
 
       &__list {
         margin-left: 10px;

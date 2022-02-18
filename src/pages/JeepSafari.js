@@ -28,7 +28,7 @@ const JeepSafari = () => {
           </div>
         </Col>
         <Col xs="12" md="4" lg="4">
-          <BookNow />
+          <BookNow price="Kişi başı 200₺" />
         </Col>
       </Row>
       <div className="mt-2">

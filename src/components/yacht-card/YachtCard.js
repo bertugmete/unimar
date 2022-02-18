@@ -8,7 +8,7 @@ import StarSvg from './assets/images/star.svg'
 
 const YachtCard = () => {
   return (
-    <Link className="yacht-card">
+    <Link className="yacht-card" to="/boat-tour">
       <div className="yacht-card__image">
         <img src={YachtCardImage} alt="yacht" />
       </div>

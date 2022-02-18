@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Col, Row } from "react-bootstrap";
 import PaymentSvg from "../../pages/assets/images/payment.svg";
 import CarSvg from "../../pages/assets/images/car.svg";
@@ -7,85 +8,70 @@ import TimeSvg from "../../pages/assets/images/time.svg";
 import DateSvg from "../../pages/assets/images/date.svg";
 import MealSvg from "../../pages/assets/images/meal.svg";
 
-const TourGeneralInformation = () => {
+const TourGeneralInformation = ({items}) => {
   return (
     <div className="tour-general-information">
       <Row>
-        <Col xs="6" md="4" lg="4">
-          <div className="tour-general-information__item">
+        {
+          items.map(item => {
+            return (
+              <Col xs="6" md="4" lg="4">
+                <div className="tour-general-information__item">
                 <span className="icon__wrapper">
-                  <img width={18} height={18} src={PaymentSvg} alt="payment" />
+                  <img width={18} height={18} src={item.icon} alt="payment" />
                 </span>
-            <div className="tour-general-information__item__list">
-              <span className="tour-general-information__item__list__title">Ödeme</span>
-              <span className="tour-general-information__item__list__description">
-                    Havale & Gelince Öde
+                  <div className="tour-general-information__item__list">
+                    <span className="tour-general-information__item__list__title">{item.title}</span>
+                    <span className="tour-general-information__item__list__description">
+                    {item.description}
                   </span>
-            </div>
-          </div>
-        </Col>
-        <Col xs="6" md="4" lg="4">
-          <div className="tour-general-information__item">
-                <span className="icon__wrapper">
-                  <img width={18} height={18} src={CarSvg} alt="car" />
-                </span>
-            <div className="tour-general-information__item__list">
-              <span className="tour-general-information__item__list__title">Transfer</span>
-              <span className="tour-general-information__item__list__description">Var</span>
-            </div>
-          </div>
-        </Col>
-        <Col xs="6" md="4" lg="4">
-          <div className="tour-general-information__item">
-                <span className="icon__wrapper">
-                  <img width={18} height={18} src={GuideSvg} alt="guide" />
-                </span>
-            <div className="tour-general-information__item__list">
-              <span className="tour-general-information__item__list__title">Rehber</span>
-              <span className="tour-general-information__item__list__description">Var</span>
-            </div>
-          </div>
-        </Col>
-        <Col xs="6" md="4" lg="4">
-          <div className="tour-general-information__item">
-                <span className="icon__wrapper">
-                  <img width={18} height={18} src={TimeSvg} alt="time" />
-                </span>
-            <div className="tour-general-information__item__list">
-              <span className="tour-general-information__item__list__title">Tur Saati</span>
-              <span className="tour-general-information__item__list__description">
-                    09.30 - 16.30
-                  </span>
-            </div>
-          </div>
-        </Col>
-        <Col xs="6" md="4" lg="4">
-          <div className="tour-general-information__item">
-                <span className="icon__wrapper">
-                  <img width={18} height={18} src={DateSvg} alt="date" />
-                </span>
-            <div className="tour-general-information__item__list">
-              <span className="tour-general-information__item__list__title">Tur Zamanları</span>
-              <span className="tour-general-information__item__list__description">Her Gün</span>
-            </div>
-          </div>
-        </Col>
-        <Col xs="6" md="4" lg="4">
-          <div className="tour-general-information__item">
-                <span className="icon__wrapper">
-                  <img width={18} height={18} src={MealSvg} alt="meal" />
-                </span>
-            <div className="tour-general-information__item__list">
-              <span className="tour-general-information__item__list__title">Yemek</span>
-              <span className="tour-general-information__item__list__description">
-                    Öğle Yemeği
-                  </span>
-            </div>
-          </div>
-        </Col>
+                  </div>
+                </div>
+              </Col>
+            )
+          })
+        }
       </Row>
     </div>
   );
 };
+
+TourGeneralInformation.propTypes = {
+  items: [{
+    icon: PropTypes.element,
+    title: PropTypes.string,
+    description: PropTypes.string,
+  }]
+};
+
+TourGeneralInformation.defaultProps = {
+  items: [{
+    icon: PaymentSvg,
+    title: 'Ödeme',
+    description: 'Havale & Gelince Öde',
+  }, {
+    icon: CarSvg,
+    title: 'Transfer',
+    description: 'Var',
+  }, {
+    icon: GuideSvg,
+    title: 'Rehber',
+    description: 'Var',
+  }, {
+    icon: TimeSvg,
+    title: 'Tur Saati',
+    description: '09.30 - 16.30',
+  }, {
+    icon: DateSvg,
+    title: 'Tur Zamanları',
+    description: 'Her Gün',
+  }, {
+    icon: MealSvg,
+    title: 'Yemek',
+    description: 'Öğle Yemeği',
+  }]
+}
+
+
 
 export default TourGeneralInformation;
