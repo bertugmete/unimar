@@ -49,6 +49,13 @@
     }
     &__list {
     }
+    &__button {
+      display: flex;
+      justify-content: flex-end;
+      a {
+        text-decoration: none;
+      }
+    }
   }
 
   &__rent-car {

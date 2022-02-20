@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
-const TourCard = ({ image, name, price }) => {
+const TourCard = ({ image, name, price, directTo }) => {
   return (
-    <Link className="tour-card" to="/jeep-safari">
+    <Link className="tour-card" to={directTo}>
       <img src={image} alt={image} className="tour-card__image" />
       <div className="tour-card__information">
         <p className="tour-card__information__name">{name}</p>

@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import Textarea from "../../components/textarea/Textarea";
 import Constants from "../../components/notification-toast/helper";
 import { notificationToast } from "../../components/notification-toast/NotificationToast";
+import SelectDate from "../../components/date-picker/DatePicker";
 
 const BookNow = ({ price }) => {
   let [adultCount, setAdultCount] = React.useState(1);
@@ -79,6 +80,7 @@ const BookNow = ({ price }) => {
                increment={() => setInfantCount(++infantCount)}
                decrement={() => childCount > 0 && setInfantCount(--infantCount)}
         />
+        <SelectDate />
         <Textarea label="Not" value={note} onChange={e => setNote(e.target.value)} name="note" />
         <input style={{ display: "none" }} name="tourName" value="jeep safari" className="mt-2" />
         <div className="d-grid mt-2">

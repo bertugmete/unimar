@@ -62,7 +62,6 @@ const BoatTour = () => {
         </Col>
         <Col xs="12" md="4" lg="4">
           <BookNow price="Günlük 1200₺" />
-
         </Col>
       </Row>
       <Row className="flex-row-reverse">

@@ -3,7 +3,7 @@ import { Button, Col, Row, Tabs, Tab } from "react-bootstrap";
 import classnames from "classnames";
 
 
-const TourProperties = () => {
+const TourProperties = ({tourProgram, includedInTheFee, notIncludedInTheFee, frequentlyAskedQuestions}) => {
   const [propertyVisibility, setPropertyVisibility] = React.useState({
     tourProgramVisibility: true,
     includePriceVisibility: false,
@@ -27,18 +27,16 @@ const TourProperties = () => {
   return (
     <Tabs defaultActiveKey="tour" id="uncontrolled-tab-example" className="mb-3 mt-3">
       <Tab eventKey="tour" title="TUR PROGRAMI">
-        <div>
-          TUR PROGRAMI
-        </div>
+          {tourProgram()}
       </Tab>
       <Tab eventKey="fee" title="Ücrete Dahil Olanlar">
-        <div>Ücrete Dahil Olanlar</div>
+        {includedInTheFee()}
       </Tab>
       <Tab eventKey="notfee" title="Ücrete Dahil Olmayanlar">
-        <div>Ücrete Dahil Olmayanlar</div>
+        {notIncludedInTheFee}
       </Tab>
       <Tab eventKey="faq" title="Sıkça Sorulan Sorular">
-        <div>Sıkça Sorulan Sorular</div>
+        {frequentlyAskedQuestions}
       </Tab>
     </Tabs>
   );
