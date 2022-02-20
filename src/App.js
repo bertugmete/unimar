@@ -6,6 +6,7 @@ import Header from "./layout/header/Header";
 import JeepSafari from "./pages/JeepSafari";
 import BoatTour from "./pages/BoatTour";
 import Whatsapp from "./components/whatsapp/Whatsapp";
+import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       />
       <div>
         <Router>
+        <ScrollToTop>
           <Header />
           <Whatsapp />
           <Switch>
@@ -32,6 +34,7 @@ const App = () => {
             <Route path="/jeep-safari" render={JeepSafari} />
             <Redirect to="/" />
           </Switch>
+        </ScrollToTop>
         </Router>
       </div>
     </>
