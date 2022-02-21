@@ -8,7 +8,7 @@ import Constants from '../../components/notification-toast/helper'
 import { notificationToast } from '../../components/notification-toast/NotificationToast'
 import SelectDate from '../../components/date-picker/DatePicker'
 
-const BookNow = ({ adultPrice, childPrice, infantPrice }) => {
+const BookNow = ({ adultPrice, childPrice, infantPrice, tourType }) => {
   let [adultCount, setAdultCount] = React.useState(0)
   let [childCount, setChildCount] = React.useState(0)
   let [infantCount, setInfantCount] = React.useState(0)
@@ -17,13 +17,15 @@ const BookNow = ({ adultPrice, childPrice, infantPrice }) => {
   const [email, setEmail] = React.useState('')
   const [hotelName, setHotelName] = React.useState('')
   const [roomNumber, setRoomNumber] = React.useState('')
+  const [date, setDate] = React.useState(new Date())
   const [note, setNote] = React.useState('')
   const [price, setPrice] = React.useState(0)
 
   const form = useRef()
 
   const handleOnBookNowClick = (e) => {
-    e.preventDefault() // Prevents default refresh by the browser
+    e.preventDefault()
+    const formattedDate = date.toLocaleDateString('tr-TR').replace(/ /g, '-')
     debugger
     emailjs
       .send(
@@ -31,7 +33,7 @@ const BookNow = ({ adultPrice, childPrice, infantPrice }) => {
         'template_r4agj75',
         {
           nameSurname,
-          tourName: 'Jeep',
+          tourName: tourType,
           phone,
           email,
           adultCount,
@@ -39,6 +41,7 @@ const BookNow = ({ adultPrice, childPrice, infantPrice }) => {
           infantCount,
           hotelName,
           roomNumber,
+          date: formattedDate,
           note
         },
         'user_W8PNoQrAIlO8W9Q8t9NGH'
@@ -162,7 +165,12 @@ const BookNow = ({ adultPrice, childPrice, infantPrice }) => {
           decrement={() => decrementInfantCount()}
         />
         <div className="mt-2 mb-2">
-          <SelectDate />
+          <SelectDate
+            onChange={(date) => {
+              setDate(date)
+            }}
+            value={date}
+          />
         </div>
         <Textarea label="Not" value={note} onChange={(e) => setNote(e.target.value)} name="note" />
         <input style={{ display: 'none' }} name="tourName" value="jeep safari" className="mt-2" />
