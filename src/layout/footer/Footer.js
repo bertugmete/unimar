@@ -7,13 +7,16 @@ import TwitterSvg from './assets/images/twitter.svg'
 import YoutubeSvg from './assets/images/youtube.svg'
 import { Link } from 'react-router-dom'
 import NavLinks from '../navbar/NavLinks'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation()
+
   return (
     <footer className="footer">
       <div className="footer__information">
         <div className="footer__information__title">
-          <span>UNIMAR TURİZM</span>
+          <span>{t('company.name')}</span>
         </div>
         <ul className="footer__information__list">
           <li className="footer__information__list__item">

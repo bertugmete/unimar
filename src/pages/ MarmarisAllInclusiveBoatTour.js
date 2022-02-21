@@ -22,8 +22,10 @@ import Image5 from './assets/images/marmaris-all-inclusive-boat-tour/5.png'
 import Image6 from './assets/images/marmaris-all-inclusive-boat-tour/6.png'
 import Image7 from './assets/images/marmaris-all-inclusive-boat-tour/7.png'
 import Image8 from './assets/images/marmaris-all-inclusive-boat-tour/8.jpg'
+import { useTranslation } from 'react-i18next'
 
 const MarmarisAllInclusiveBoatTour = () => {
+  const { t } = useTranslation()
   return (
     <div>
       <Container className="page">

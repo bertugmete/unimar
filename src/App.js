@@ -32,13 +32,13 @@ const App = () => {
             <Header />
             <Whatsapp />
             <Switch>
-              <Route exact path="/" render={HomePage} />
+              <Route exact path="/" render={() => <HomePage />} />
               <Route path="/boat-tour" render={BoatTour} />
               <Route path="/jeep-safari" render={JeepSafari} />
               <Route path="/daily-tours" render={DailyTours} />
               <Route
                 path="/marmaris-all-inclusive-boat-tour"
-                render={MarmarisAllInclusiveBoatTour}
+                render={() => <MarmarisAllInclusiveBoatTour />}
               />
               <Redirect to="/" />
             </Switch>

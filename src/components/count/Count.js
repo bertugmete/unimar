@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import MinusSvg from './assets/images/minus.svg'
 import PlusSvg from './assets/images/plus.svg'
 import { Col, Row } from 'react-bootstrap'
-import CountInput from "./CountInput";
+import CountInput from './CountInput'
+import { useTranslation } from 'react-i18next'
 
 const Count = ({ decrement, increment, value, title, description, name }) => {
   return (
@@ -20,7 +21,7 @@ const Count = ({ decrement, increment, value, title, description, name }) => {
             </div>
             <div className="count__change__value">
               <CountInput value={value} name={name} disabled />
-              </div>
+            </div>
             <div className="count__change__button" onClick={increment}>
               <img height={18} width={18} src={PlusSvg} alt="minus" />
             </div>
@@ -40,8 +41,6 @@ Count.propTypes = {
 }
 
 Count.defaultProps = {
-  title: 'Yetişkin',
-  description: 'Yaş 18+',
   value: 0
 }
 

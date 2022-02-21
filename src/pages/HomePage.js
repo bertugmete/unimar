@@ -12,10 +12,12 @@ import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
 import YachtCard from '../components/yacht-card/YachtCard'
 import RentCar from '../components/rent-car/RentCar'
-import MapContainer from '../components/map/Map'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
-const HomePage = () => {
+const HomePage = ({}) => {
+  const { t } = useTranslation()
+
   return (
     <div className="home">
       <div className="home__swiper">
@@ -47,9 +49,9 @@ const HomePage = () => {
       <Container fluid className="gx-0">
         <div className="home__popular-tours">
           <div className="home-category__header__wrapper">
-            <h2 className="home-category__header__title">Popüler Günlük Turlar</h2>
+            <h2 className="home-category__header__title">{t('home.popularTour.title')}</h2>
             <p className="home-category__header__description">
-              En çok tercih edilen turlarımıza göz atın
+              {t('home.popularTour.description')}
             </p>
           </div>
           <div className="home__popular-tours__list">
@@ -57,7 +59,7 @@ const HomePage = () => {
               <Col xs="12" md="4" lg="3">
                 <TourCard
                   image={MarmarisAllInclusiveBoatTour}
-                  name="Marmaris Her Şey Dahil Tekne Turu"
+                  name={t('home.popularTour.allInclusiveBoatTour')}
                   price="200₺"
                   directTo="/marmaris-all-inclusive-boat-tour"
                 />
@@ -87,7 +89,7 @@ const HomePage = () => {
           </div>
           <div className="home__popular-tours__button m-2">
             <Link to="/daily-tours">
-              <span>Günlük Turların Tümünü Gör</span>
+              <span>Günlük Turların Tamamını Gör</span>
             </Link>
           </div>
         </div>
@@ -95,9 +97,7 @@ const HomePage = () => {
           <div className="home__yacht-tours">
             <div className="home-category__header__wrapper">
               <h2 className="home-category__header__title">Tekne Kiralama</h2>
-              <p className="home-category__header__description">
-                En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz
-              </p>
+              <p className="home-category__header__description">{t('home.yachtTour.title')}</p>
             </div>
             <Row className="row-margin">
               <Col xs="12" md="4" lg="4">
@@ -124,7 +124,7 @@ const HomePage = () => {
         <Container>
           <div className="home__rent-car">
             <div className="home-category__header__wrapper">
-              <h2 className="home-category__header__title">Günlük Araç Kiralama</h2>
+              <h2 className="home-category__header__title">{t('home.rentACar.title')}</h2>
             </div>
             <Row className="row-margin">
               <Col xs="12" md="3" lg="3">
