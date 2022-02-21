@@ -81,7 +81,7 @@ const MarmarisAllInclusiveBoatTour = () => {
             </div>
           </Col>
           <Col xs="12" md="4" lg="4">
-            <BookNow adultPrice={10} childPrice={8} infantPrice={6} />
+            <BookNow adultPrice={12} childPrice={8} infantPrice={6} />
           </Col>
         </Row>
         <Row className="mt-3">
