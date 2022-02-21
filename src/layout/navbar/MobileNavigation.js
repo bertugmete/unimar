@@ -5,6 +5,7 @@ import CloseSvg from './assets/images/close.svg'
 import { useState } from 'react'
 import classnames from 'classnames'
 import Language from '../../components/language/Language'
+import Logo from '../../components/logo/Logo'
 
 const MobileNavigation = () => {
   const [open, setOpen] = useState(false)
@@ -36,8 +37,9 @@ const MobileNavigation = () => {
 
       {open && <NavLinks />}
       {open && <Language />}
+      {open && <Logo />}
     </nav>
   )
 }
 
-export default MobileNavigation
+export default withClickOutside(MobileNavigation)

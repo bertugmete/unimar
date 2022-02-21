@@ -3,7 +3,6 @@
   align-items: center;
   height: 70px;
 
-
   .mobile-navigation {
     display: none;
   }
@@ -25,7 +24,8 @@
       &--open {
         background: #ef6c00;
         padding-left: 82px;
-        height: 400px;
+        height: 430px;
+        padding-bottom: 10px;
       }
 
       &__hamburger {
