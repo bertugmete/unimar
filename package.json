@@ -1,12 +1,13 @@
 {
   "name": "unimar",
   "version": "1.0.0",
+  "homepage": ".",
   "description": "Unimar Travel Agency",
   "author": "Bertuğ Mete",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "INLINE_RUNTIME_CHUNK=false webpack"
   },
   "keywords": [],
   "license": "ISC",
