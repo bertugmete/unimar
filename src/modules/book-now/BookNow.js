@@ -8,8 +8,8 @@ import Constants from '../../components/notification-toast/helper'
 import { notificationToast } from '../../components/notification-toast/NotificationToast'
 import SelectDate from '../../components/date-picker/DatePicker'
 
-const BookNow = ({ price }) => {
-  let [adultCount, setAdultCount] = React.useState(1)
+const BookNow = ({ adultPrice, childPrice, infantPrice }) => {
+  let [adultCount, setAdultCount] = React.useState(0)
   let [childCount, setChildCount] = React.useState(0)
   let [infantCount, setInfantCount] = React.useState(0)
   const [nameSurname, setNameSurname] = React.useState('')
@@ -18,6 +18,7 @@ const BookNow = ({ price }) => {
   const [hotelName, setHotelName] = React.useState('')
   const [roomNumber, setRoomNumber] = React.useState('')
   const [note, setNote] = React.useState('')
+  const [price, setPrice] = React.useState(0)
 
   const form = useRef()
 
@@ -55,6 +56,48 @@ const BookNow = ({ price }) => {
       )
   }
 
+  const incrementAdultCount = () => {
+    const totalPrice = adultPrice + price
+    setPrice(totalPrice)
+    setAdultCount(adultCount + 1)
+  }
+
+  const decrementAdultCount = () => {
+    if (adultCount) {
+      const totalPrice = price - adultPrice
+      setAdultCount(adultCount - 1)
+      setPrice(totalPrice)
+    }
+  }
+
+  const incrementChildCount = () => {
+    const totalPrice = childPrice + price
+    setPrice(totalPrice)
+    setChildCount(childCount + 1)
+  }
+
+  const decrementChildCount = () => {
+    if (childCount) {
+      const totalPrice = price - childPrice
+      setChildCount(childCount - 1)
+      setPrice(totalPrice)
+    }
+  }
+
+  const incrementInfantCount = () => {
+    const totalPrice = infantPrice + price
+    setPrice(totalPrice)
+    setInfantCount(infantCount + 1)
+  }
+
+  const decrementInfantCount = () => {
+    if (infantCount) {
+      const totalPrice = price - infantPrice
+      setInfantCount(infantCount - 1)
+      setPrice(totalPrice)
+    }
+  }
+
   return (
     <form ref={form} onSubmit={handleOnBookNowClick}>
       <div className="book-now">
@@ -62,7 +105,7 @@ const BookNow = ({ price }) => {
           <h3>Rezervasyon Yap</h3>
         </div>
         <div className="book-now__price mt-2 mb-2">
-          <span>{price}</span>
+          <span>Toplam Tutar: {price}</span>
         </div>
         <div className="book-now__customer-information mt-2">
           <Input
@@ -98,25 +141,25 @@ const BookNow = ({ price }) => {
         </div>
         <Count
           value={adultCount}
-          increment={() => setAdultCount(++adultCount)}
+          increment={() => incrementAdultCount()}
           name="adultCount"
-          decrement={() => adultCount > 0 && setAdultCount(--adultCount)}
+          decrement={() => decrementAdultCount()}
         />
         <Count
           value={childCount}
           title="Çocuk"
           description="2-12 yaş"
-          increment={() => setChildCount(++childCount)}
+          increment={() => incrementChildCount()}
           name="childCount"
-          decrement={() => childCount > 0 && setChildCount(--childCount)}
+          decrement={() => decrementChildCount()}
         />
         <Count
           value={infantCount}
           title="Bebek"
           description="0-2 yaş"
           name="infantCount"
-          increment={() => setInfantCount(++infantCount)}
-          decrement={() => childCount > 0 && setInfantCount(--infantCount)}
+          increment={() => incrementInfantCount()}
+          decrement={() => decrementInfantCount()}
         />
         <div className="mt-2 mb-2">
           <SelectDate />

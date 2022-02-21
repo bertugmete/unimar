@@ -79,7 +79,7 @@ const MarmarisAllInclusiveBoatTour = () => {
             </div>
           </Col>
           <Col xs="12" md="4" lg="4">
-            <BookNow price="Günlük 1200₺" />
+            <BookNow adultPrice={10} childPrice={8} infantPrice={6} />
           </Col>
         </Row>
         <Row className="mt-3">
