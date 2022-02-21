@@ -1,19 +1,19 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination } from "swiper";
-import { Button, Col, Container, Row } from "react-bootstrap";
-import Venezia from "./assets/images/venezia.jpeg";
-import Venezia1 from "./assets/images/venezia-1.jpeg";
-import Istanbul from "./assets/images/istanbul.jpeg";
-import London from "./assets/images/london.jpeg";
-import MarmarisAllInclusiveBoatTour from "./assets/images/marmaris-all-inclusive-boat-tour/MarmarisAllInclusiveBoatTour-Home.jpg";
-import "swiper/css/navigation";
-import "swiper/css";
-import TourCard from "../components/tour-card/TourCard";
-import YachtCard from "../components/yacht-card/YachtCard";
-import RentCar from "../components/rent-car/RentCar";
-import MapContainer from "../components/map/Map";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, Navigation, Pagination } from 'swiper'
+import { Button, Col, Container, Row } from 'react-bootstrap'
+import Venezia from './assets/images/venezia.jpeg'
+import Venezia1 from './assets/images/venezia-1.jpeg'
+import Istanbul from './assets/images/istanbul.jpeg'
+import London from './assets/images/london.jpeg'
+import MarmarisAllInclusiveBoatTour from './assets/images/marmaris-all-inclusive-boat-tour/MarmarisAllInclusiveBoatTour-Home.jpg'
+import 'swiper/css/navigation'
+import 'swiper/css'
+import TourCard from '../components/tour-card/TourCard'
+import YachtCard from '../components/yacht-card/YachtCard'
+import RentCar from '../components/rent-car/RentCar'
+import MapContainer from '../components/map/Map'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -55,7 +55,12 @@ const HomePage = () => {
           <div className="home__popular-tours__list">
             <Row className="gx-0">
               <Col xs="12" md="4" lg="3">
-                <TourCard image={MarmarisAllInclusiveBoatTour} name="Marmaris Her Şey Dahil Tekne Turu" price="200₺" directTo="/marmaris-all-inclusive-boat-tour" />
+                <TourCard
+                  image={MarmarisAllInclusiveBoatTour}
+                  name="Marmaris Her Şey Dahil Tekne Turu"
+                  price="200₺"
+                  directTo="/marmaris-all-inclusive-boat-tour"
+                />
               </Col>
               <Col xs="12" md="4" lg="3">
                 <TourCard image={London} name="JEEP SAFARİ" price="200₺" />
@@ -82,7 +87,7 @@ const HomePage = () => {
           </div>
           <div className="home__popular-tours__button m-2">
             <Link to="/daily-tours">
-              <span>Tüm Günlük Turları Gör</span>
+              <span>Günlük Turların Tümünü Gör</span>
             </Link>
           </div>
         </div>
@@ -138,9 +143,9 @@ const HomePage = () => {
           </div>
         </Container>
       </Container>
-      <MapContainer />
+      {/*<MapContainer />*/}
     </div>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage

@@ -1,15 +1,16 @@
-import React from "react";
-import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import HomePage from "./pages/HomePage";
-import Header from "./layout/header/Header";
-import JeepSafari from "./pages/JeepSafari";
-import BoatTour from "./pages/BoatTour";
-import DailyTours from "./pages/DailyTours";
-import MarmarisAllInclusiveBoatTour from "./pages/ MarmarisAllInclusiveBoatTour";
-import Whatsapp from "./components/whatsapp/Whatsapp";
-import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
-import 'react-toastify/dist/ReactToastify.css';
+import React from 'react'
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify'
+import HomePage from './pages/HomePage'
+import Header from './layout/header/Header'
+import JeepSafari from './pages/JeepSafari'
+import BoatTour from './pages/BoatTour'
+import DailyTours from './pages/DailyTours'
+import MarmarisAllInclusiveBoatTour from './pages/ MarmarisAllInclusiveBoatTour'
+import Whatsapp from './components/whatsapp/Whatsapp'
+import ScrollToTop from './components/scroll-to-top/ScrollToTop'
+import 'react-toastify/dist/ReactToastify.css'
+import Footer from './layout/footer/Footer'
 
 const App = () => {
   return (
@@ -27,22 +28,26 @@ const App = () => {
       />
       <div>
         <Router>
-        <ScrollToTop>
-          <Header />
-          <Whatsapp />
-          <Switch>
-            <Route exact path="/" render={HomePage} />
-            <Route path="/boat-tour" render={BoatTour} />
-            <Route path="/jeep-safari" render={JeepSafari} />
-            <Route path="/daily-tours" render={DailyTours} />
-            <Route path="/marmaris-all-inclusive-boat-tour" render={MarmarisAllInclusiveBoatTour} />
-            <Redirect to="/" />
-          </Switch>
-        </ScrollToTop>
+          <ScrollToTop>
+            <Header />
+            <Whatsapp />
+            <Switch>
+              <Route exact path="/" render={HomePage} />
+              <Route path="/boat-tour" render={BoatTour} />
+              <Route path="/jeep-safari" render={JeepSafari} />
+              <Route path="/daily-tours" render={DailyTours} />
+              <Route
+                path="/marmaris-all-inclusive-boat-tour"
+                render={MarmarisAllInclusiveBoatTour}
+              />
+              <Redirect to="/" />
+            </Switch>
+            <Footer />
+          </ScrollToTop>
         </Router>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App

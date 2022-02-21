@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import classnames from 'classnames'
 
-const NavLinks = () => {
+const NavLinks = ({ wrapperClassName }) => {
   return (
-    <ul className="nav-links">
+    <ul className={classnames('nav-links', wrapperClassName)}>
       <Link to="/daily-tours" className="nav-links__item">
         GÜNLÜK TURLAR
       </Link>
