@@ -199,6 +199,10 @@ h2 {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     padding: 10px;
+
+    @media (max-width: 990px) {
+      padding: 8px;
+    }
   }
 }
 .nav-link {
@@ -208,4 +212,29 @@ h2 {
 .nav-link.active {
   background: #ef6c00 !important;
   color: #fff !important;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+  @media (max-width: 990px) {
+    height: calc(2.5rem + 2px);
+  }
+}
+
+.form-floating > label {
+  @media (max-width: 990px) {
+    padding: 0.8rem 0.75rem;
+    font-size: 0.8rem;
+  }
+}
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown) {
+  @media (max-width: 990px) {
+    padding-bottom: 0.2rem;
+    padding-top: 1.225rem;
+  }
+}
+
+.page__paragraph {
+  line-height: 1.4rem;
 }

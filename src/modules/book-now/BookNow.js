@@ -104,7 +104,7 @@ const BookNow = ({ adultPrice, childPrice, infantPrice, tourType }) => {
     <form ref={form} onSubmit={handleOnBookNowClick}>
       <div className="book-now">
         <div className="book-now__title">
-          <h3>{t('components.bookNow.makeReservation')}</h3>
+          <h3 className="book-now__title__text">{t('components.bookNow.makeReservation')}</h3>
         </div>
         <div className="book-now__price mt-2 mb-2">
           <span>

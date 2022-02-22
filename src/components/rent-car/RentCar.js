@@ -5,9 +5,12 @@ import FuelSvg from './styles/images/fuel.svg'
 import UsersSvg from './styles/images/users.svg'
 import CarPng from './styles/images/car.png'
 
-const RentCar = () => {
+const RentCar = ({ price }) => {
   return (
     <Link className="rent-car">
+      <div className="rent-car__price">
+        <span>{price}</span>
+      </div>
       <div className="rent-car__image__wrapper">
         <img src={CarPng} alt="car" />
       </div>

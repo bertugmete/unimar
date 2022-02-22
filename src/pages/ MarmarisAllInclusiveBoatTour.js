@@ -31,53 +31,48 @@ const MarmarisAllInclusiveBoatTour = () => {
       <Container className="page">
         <Row>
           <Col xs="12" md="8" lg="8">
-            <div className="tour">
-              <div className="tour__title">
-                <h1>Tekne Turu - Her Şey Dahil</h1>
-              </div>
-              <TourGeneralInformation
-                items={[
-                  {
-                    icon: ClockSvg,
-                    title: 'Tur Saati',
-                    description: '10.30 - 16.30'
-                  },
-                  {
-                    icon: CarSvg,
-                    title: 'Transfer',
-                    description: 'Var'
-                  },
-                  {
-                    icon: GuideSvg,
-                    title: 'Rehber',
-                    description: 'Var'
-                  },
-                  {
-                    icon: PaymentSvg,
-                    title: 'Ödeme',
-                    description: 'Havale & Gelince Öde'
-                  },
-                  {
-                    icon: Harbour,
-                    title: 'Liman',
-                    description: 'Marmaris'
-                  },
-                  {
-                    icon: MealSvg,
-                    title: 'Yemek',
-                    description: 'Öğle Yemeği & Alkolsüz İçecek'
-                  }
-                ]}
-              />
-              <div>
-                <Row>
-                  <Col>
-                    <Carousel
-                      slides={[Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8]}
-                    />
-                  </Col>
-                </Row>
-              </div>
+            <TourGeneralInformation
+              items={[
+                {
+                  icon: ClockSvg,
+                  title: 'Tur Saati',
+                  description: '10.30 - 16.30'
+                },
+                {
+                  icon: CarSvg,
+                  title: 'Transfer',
+                  description: 'Var'
+                },
+                {
+                  icon: GuideSvg,
+                  title: 'Rehber',
+                  description: 'Var'
+                },
+                {
+                  icon: PaymentSvg,
+                  title: 'Ödeme',
+                  description: 'Havale & Gelince Öde'
+                },
+                {
+                  icon: Harbour,
+                  title: 'Liman',
+                  description: 'Marmaris'
+                },
+                {
+                  icon: MealSvg,
+                  title: 'Yemek',
+                  description: 'Öğle Yemeği & Alkolsüz İçecek'
+                }
+              ]}
+            />
+            <div>
+              <Row>
+                <Col>
+                  <Carousel
+                    slides={[Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8]}
+                  />
+                </Col>
+              </Row>
             </div>
           </Col>
           <Col xs="12" md="4" lg="4">
@@ -86,13 +81,13 @@ const MarmarisAllInclusiveBoatTour = () => {
         </Row>
         <Row className="mt-3">
           <Col xs="12" md="8" lg="8">
-            <p>
+            <p className="page__paragraph">
               Akdeniz ve Ege’nin birleştiği eşsiz güzellikteki koylarda denizin ve güneşin tadını
               çıkarırken mavinin tonlarından büyüleyici bir güne hazır olun. Marmaris tekne turunda
               eğlenceyi ve tertemiz sularda yüzerek denizin tadını çıkartın.
             </p>
             <br />
-            <p>
+            <p className="page__paragraph">
               Marmaris’in büyüleyici masmavi koylarını teknemizle keşfetmeye hazır mısınız? Gün boyu
               sınırsız içeceklerin ve öğle yemeğinin dahil olduğu turumuzda ayrıca sizi
               servislerimiz ile otelinizden de alıyoruz. Teknemiz 2 katlı olup, üst katımızda herkes
@@ -122,7 +117,7 @@ const MarmarisAllInclusiveBoatTour = () => {
 
 const TourProgram = () => {
   return (
-    <p>
+    <p className="page__paragraph">
       Marmaris Günübirlik Tekne Turu Rotamız; Cennet Adasında fotoğraf molası , Akvaryum Koyunda
       yüzme molamız, Fosforlu Mağarada fotoğraf molası , Amos&Kumlubük’te yüzme molası, Turunç’ta
       iskeleye yanaşarak yüzme molası ve Turunç’u gezme şansı ve sahilden denize girme imkanı, Yeşil
@@ -133,7 +128,7 @@ const TourProgram = () => {
 
 const IncludedInTheFee = () => {
   return (
-    <p>
+    <p className="page__paragraph">
       Ücretsiz otel transferi - Öğle Yemeği – Limitsiz çay,kahve,su - Limitsiz kola,fanta,sprite -
       Türkçe rehberlik hizmeti - Tüm sigortalar
     </p>

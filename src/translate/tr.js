@@ -5,7 +5,7 @@ export const Turkish = {
     },
     header: {
       DailyTours: 'GÜNLÜK TURLAR',
-      Boats: 'TENKELER',
+      Boats: 'TEKNELER',
       Transfer: 'TRANSFER',
       RentACar: 'KİRALIK ARAÇ',
       AboutUs: 'HAKKIMIZDA',

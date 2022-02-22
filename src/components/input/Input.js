@@ -1,10 +1,20 @@
 import React from 'react'
 import { FloatingLabel, Form } from 'react-bootstrap'
 
-const Input = ({ label, name, onChange, value, type, defaultValue, className, placeholder, ...props }) => {
+const Input = ({
+  label,
+  name,
+  onChange,
+  value,
+  type,
+  defaultValue,
+  className,
+  placeholder,
+  ...props
+}) => {
   return (
-    <Form.Group className="mb-3">
-      <FloatingLabel controlId="floatingInput" className="mb-3" label={label}>
+    <Form.Group className="mb-2">
+      <FloatingLabel controlId="floatingInput" label={label}>
         <Form.Control
           className={className}
           name={name}

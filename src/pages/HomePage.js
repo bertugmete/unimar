@@ -128,16 +128,16 @@ const HomePage = ({}) => {
             </div>
             <Row className="row-margin">
               <Col xs="12" md="3" lg="3">
-                <RentCar />
+                <RentCar price="200₺" />
               </Col>
               <Col xs="12" md="3" lg="3">
-                <RentCar />
+                <RentCar price="200₺" />
               </Col>
               <Col xs="12" md="3" lg="3">
-                <RentCar />
+                <RentCar price="200₺" />
               </Col>
               <Col xs="12" md="3" lg="3">
-                <RentCar />
+                <RentCar price="200₺" />
               </Col>
             </Row>
           </div>

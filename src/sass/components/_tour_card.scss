@@ -31,6 +31,8 @@
     }
 
     &__price {
+      display: flex;
+      align-self: end;
       margin-left: auto;
     }
   }
