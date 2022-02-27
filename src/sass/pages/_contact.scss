@@ -1,0 +1,41 @@
+.contact {
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__text {
+      font-size: 1.6rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      &__image {
+
+      }
+
+      &__title {
+        &__text {
+          font-size: 1.5rem;
+        }
+      }
+
+      &__description {
+
+        &__text {
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+}

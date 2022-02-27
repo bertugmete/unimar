@@ -108,7 +108,7 @@ const BookNow = ({ adultPrice, childPrice, infantPrice, tourType }) => {
         </div>
         <div className="book-now__price mt-2 mb-2">
           <span>
-            {t('components.bookNow.totalPrice')}: {price}
+            {t('components.bookNow.totalPrice')}: {price} {t('currency')}
           </span>
         </div>
         <div className="book-now__customer-information mt-2">

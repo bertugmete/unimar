@@ -1,44 +1,31 @@
-import React from "react";
-import { Button, Col, Row, Tabs, Tab } from "react-bootstrap";
-import classnames from "classnames";
+import React from 'react'
+import { Button, Col, Row, Tabs, Tab } from 'react-bootstrap'
+import classnames from 'classnames'
+import { useTranslation } from 'react-i18next'
 
-
-const TourProperties = ({tourProgram, includedInTheFee, notIncludedInTheFee, frequentlyAskedQuestions}) => {
-  const [propertyVisibility, setPropertyVisibility] = React.useState({
-    tourProgramVisibility: true,
-    includePriceVisibility: false,
-    notIncludePriceVisibility: false,
-    frequentAskedQuestionsVisibility: false
-  });
-
-  const handleOnTourProgramClick = (property) => {
-    const copyVisibility = { ...propertyVisibility };
-
-    Object.keys(copyVisibility).map(function(key, index) {
-      copyVisibility[key] = false;
-    });
-
-    setPropertyVisibility({
-      ...copyVisibility,
-      [property]: true
-    });
-  };
+const TourProperties = ({
+  tourProgram,
+  includedInTheFee,
+  notIncludedInTheFee,
+  frequentlyAskedQuestions
+}) => {
+  const { t } = useTranslation()
 
   return (
     <Tabs defaultActiveKey="tour" id="uncontrolled-tab-example" className="mb-3 mt-3">
-      <Tab eventKey="tour" title="TUR PROGRAMI">
-          {tourProgram()}
+      <Tab eventKey="tour" title={t('components.tourProperties.program')}>
+        {tourProgram()}
       </Tab>
-      <Tab eventKey="fee" title="Ücrete Dahil Olanlar">
+      <Tab eventKey="fee" title={t('components.tourProperties.include')}>
         {includedInTheFee()}
       </Tab>
-      <Tab eventKey="notfee" title="Ücrete Dahil Olmayanlar">
-        {notIncludedInTheFee}
+      <Tab eventKey="notfee" title={t('components.tourProperties.exclude')}>
+        {notIncludedInTheFee()}
       </Tab>
-      <Tab eventKey="faq" title="Sıkça Sorulan Sorular">
-        {frequentlyAskedQuestions}
+      <Tab eventKey="faq" title={t('components.tourProperties.faq')}>
+        {frequentlyAskedQuestions()}
       </Tab>
     </Tabs>
-  );
-};
-export default TourProperties;
+  )
+}
+export default TourProperties

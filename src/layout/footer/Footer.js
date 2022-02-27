@@ -1,5 +1,5 @@
 import React from 'react'
-import PhoneSvg from './assets/images/phone.svg'
+import PhoneSvg from '../../assets/images/phone.svg'
 import FacebookSvg from './assets/images/facebook.svg'
 import LocationSvg from './assets/images/location.svg'
 import MailSvg from './assets/images/mail.svg'

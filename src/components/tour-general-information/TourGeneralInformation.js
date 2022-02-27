@@ -8,11 +8,11 @@ import TimeSvg from '../../pages/assets/images/time.svg'
 import DateSvg from '../../pages/assets/images/date.svg'
 import MealSvg from '../../pages/assets/images/meal.svg'
 
-const TourGeneralInformation = ({ items }) => {
+const TourGeneralInformation = ({ items, title }) => {
   return (
     <div className="tour">
       <div className="tour__title">
-        <h1 className="tour__title__text">Tekne Turu - Her Şey Dahil</h1>
+        <h1 className="tour__title__text">{title}</h1>
       </div>
       <div className="tour-general-information">
         <Row>

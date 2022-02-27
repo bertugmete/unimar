@@ -21,7 +21,8 @@ const config = {
   devServer: {
     port: 8080,
     static: path.join(__dirname, 'dist'),
-    hot: true
+    hot: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [

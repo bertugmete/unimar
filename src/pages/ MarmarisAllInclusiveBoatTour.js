@@ -1,16 +1,15 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import TourGeneralInformation from '../components/tour-general-information/TourGeneralInformation'
-import Harbour from './assets/images/harbor.svg'
+import DateSvg from './assets/images/date.svg'
 import CarSvg from './assets/images/car.svg'
 import GuideSvg from './assets/images/guide.svg'
 import ClockSvg from './assets/images/clock.svg'
 import PaymentSvg from './assets/images/payment.svg'
 import MealSvg from './assets/images/meal.svg'
+import CrossSvg from './assets/images/cross.svg'
+import QuestionMark from './assets/images/questionmark.svg'
 import Carousel from '../components/carousel/Carousel'
-import Boat1 from './assets/images/boat-1.jpeg'
-import Boat2 from './assets/images/boat-2.jpeg'
-import Boat3 from './assets/images/boat-3.jpeg'
 import BookNow from '../modules/book-now/BookNow'
 import TourProperties from '../components/tour-properties/TourProperties'
 import List from '../components/list/List'
@@ -32,36 +31,53 @@ const MarmarisAllInclusiveBoatTour = () => {
         <Row>
           <Col xs="12" md="8" lg="8">
             <TourGeneralInformation
+              title={t('pages.marmarisAllInclusiveBoatTour.title')}
               items={[
                 {
                   icon: ClockSvg,
-                  title: 'Tur Saati',
-                  description: '10.30 - 16.30'
+                  title: t('pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.time.title'),
+                  description: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.time.description'
+                  )
                 },
                 {
                   icon: CarSvg,
-                  title: 'Transfer',
-                  description: 'Var'
+                  title: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.transfer.title'
+                  ),
+                  description: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.transfer.description'
+                  )
                 },
                 {
                   icon: GuideSvg,
-                  title: 'Rehber',
-                  description: 'Var'
+                  title: t('pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.guide.title'),
+                  description: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.guide.description'
+                  )
                 },
                 {
                   icon: PaymentSvg,
-                  title: 'Ödeme',
-                  description: 'Havale & Gelince Öde'
+                  title: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.payment.title'
+                  ),
+                  description: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.payment.description'
+                  )
                 },
                 {
-                  icon: Harbour,
-                  title: 'Liman',
-                  description: 'Marmaris'
+                  icon: DateSvg,
+                  title: t('pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.days.title'),
+                  description: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.days.description'
+                  )
                 },
                 {
                   icon: MealSvg,
-                  title: 'Yemek',
-                  description: 'Öğle Yemeği & Alkolsüz İçecek'
+                  title: t('pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.meal.title'),
+                  description: t(
+                    'pages.marmarisAllInclusiveBoatTour.tourGeneralInformation.meal.description'
+                  )
                 }
               ]}
             />
@@ -76,38 +92,41 @@ const MarmarisAllInclusiveBoatTour = () => {
             </div>
           </Col>
           <Col xs="12" md="4" lg="4">
-            <BookNow adultPrice={12} childPrice={8} infantPrice={6} />
+            <BookNow
+              adultPrice={t('pages.marmarisAllInclusiveBoatTour.price.adult')}
+              childPrice={t('pages.marmarisAllInclusiveBoatTour.price.childPrice')}
+              infantPrice={t('pages.marmarisAllInclusiveBoatTour.price.infantPrice')}
+            />
           </Col>
         </Row>
         <Row className="mt-3">
           <Col xs="12" md="8" lg="8">
             <p className="page__paragraph">
-              Akdeniz ve Ege’nin birleştiği eşsiz güzellikteki koylarda denizin ve güneşin tadını
-              çıkarırken mavinin tonlarından büyüleyici bir güne hazır olun. Marmaris tekne turunda
-              eğlenceyi ve tertemiz sularda yüzerek denizin tadını çıkartın.
-            </p>
-            <br />
-            <p className="page__paragraph">
-              Marmaris’in büyüleyici masmavi koylarını teknemizle keşfetmeye hazır mısınız? Gün boyu
-              sınırsız içeceklerin ve öğle yemeğinin dahil olduğu turumuzda ayrıca sizi
-              servislerimiz ile otelinizden de alıyoruz. Teknemiz 2 katlı olup, üst katımızda herkes
-              için şezlonglar bulunmaktadır. Güneş, deniz ve eğlenceyi birleştiren bu turumuz size
-              unutulmaz bir gün yaşatacaktır.
+              {t('pages.marmarisAllInclusiveBoatTour.firstParagraph')}
             </p>
             <br />
             <List
               items={[
-                'Kalabalık sahillerden uzaklaşıp tekne deneyimi yaşama',
-                'Sınırsız içeceklerin yanında tavuk,makarna ve salata öğlen yemeğimiz',
-                'Marmaris’in her yerinden otelden alma ve bırakma',
-                'Gün boyu güneşlenme, denize girme ve şnorkel yapabilme imkanı'
+                t('pages.marmarisAllInclusiveBoatTour.firstList.transfer'),
+                t('pages.marmarisAllInclusiveBoatTour.firstList.meal'),
+                t('pages.marmarisAllInclusiveBoatTour.firstList.sunbath'),
+                t('pages.marmarisAllInclusiveBoatTour.firstList.away')
               ]}
             />
+            <br />
+            <p className="page__paragraph">
+              {t('pages.marmarisAllInclusiveBoatTour.secondParagraph')}
+            </p>
           </Col>
         </Row>
         <Row>
           <Col xs="12" md="8" lg="8">
-            <TourProperties tourProgram={TourProgram} includedInTheFee={IncludedInTheFee} />
+            <TourProperties
+              tourProgram={TourProgram}
+              includedInTheFee={IncludedInTheFee}
+              notIncludedInTheFee={notIncludedInTheFee}
+              frequentlyAskedQuestions={frequentlyAskedQuestions}
+            />
           </Col>
         </Row>
       </Container>
@@ -116,22 +135,54 @@ const MarmarisAllInclusiveBoatTour = () => {
 }
 
 const TourProgram = () => {
-  return (
-    <p className="page__paragraph">
-      Marmaris Günübirlik Tekne Turu Rotamız; Cennet Adasında fotoğraf molası , Akvaryum Koyunda
-      yüzme molamız, Fosforlu Mağarada fotoğraf molası , Amos&Kumlubük’te yüzme molası, Turunç’ta
-      iskeleye yanaşarak yüzme molası ve Turunç’u gezme şansı ve sahilden denize girme imkanı, Yeşil
-      Deniz ise son yüzme molamızdır. Yüzme molalarımız 30 ile 45 er dakika arasında değişmektedir.
-    </p>
-  )
+  const { t } = useTranslation()
+  return <p className="page__paragraph">{t('pages.marmarisAllInclusiveBoatTour.tourProgram')}</p>
 }
 
 const IncludedInTheFee = () => {
+  const { t } = useTranslation()
   return (
-    <p className="page__paragraph">
-      Ücretsiz otel transferi - Öğle Yemeği – Limitsiz çay,kahve,su - Limitsiz kola,fanta,sprite -
-      Türkçe rehberlik hizmeti - Tüm sigortalar
-    </p>
+    <List
+      items={[
+        t('pages.marmarisAllInclusiveBoatTour.includedInTheFee.freeTransfer'),
+        t('pages.marmarisAllInclusiveBoatTour.includedInTheFee.meal'),
+        t('pages.marmarisAllInclusiveBoatTour.includedInTheFee.limitlessOne'),
+        t('pages.marmarisAllInclusiveBoatTour.includedInTheFee.limitlessTwo'),
+        t('pages.marmarisAllInclusiveBoatTour.includedInTheFee.guide'),
+        t('pages.marmarisAllInclusiveBoatTour.includedInTheFee.insurance')
+      ]}
+    />
+  )
+}
+
+const notIncludedInTheFee = () => {
+  const { t } = useTranslation()
+
+  return (
+    <List
+      items={[
+        t('pages.marmarisAllInclusiveBoatTour.notIncludedInTheFee.restOfBeverages'),
+        t('pages.marmarisAllInclusiveBoatTour.notIncludedInTheFee.personalExpenses'),
+        t('pages.marmarisAllInclusiveBoatTour.notIncludedInTheFee.privatePhotoVideo')
+      ]}
+      icon={CrossSvg}
+    />
+  )
+}
+
+const frequentlyAskedQuestions = () => {
+  const { t } = useTranslation()
+
+  return (
+    <List
+      items={[
+        t('pages.marmarisAllInclusiveBoatTour.frequentlyAskedQuestions.first'),
+        t('pages.marmarisAllInclusiveBoatTour.frequentlyAskedQuestions.second'),
+        t('pages.marmarisAllInclusiveBoatTour.frequentlyAskedQuestions.third'),
+        t('pages.marmarisAllInclusiveBoatTour.frequentlyAskedQuestions.forth')
+      ]}
+      icon={QuestionMark}
+    />
   )
 }
 
