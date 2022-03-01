@@ -1,12 +1,13 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation, Pagination } from 'swiper'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import Venezia from './assets/images/venezia.jpeg'
 import Venezia1 from './assets/images/venezia-1.jpeg'
 import Istanbul from './assets/images/istanbul.jpeg'
 import London from './assets/images/london.jpeg'
 import MarmarisAllInclusiveBoatTour from './assets/images/marmaris-all-inclusive-boat-tour/MarmarisAllInclusiveBoatTour-Home.jpg'
+import JeepSafari from './assets/images/jeep-safari/Jeep-Safari-Home.jpg'
 import 'swiper/css/navigation'
 import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
@@ -20,6 +21,9 @@ const HomePage = ({}) => {
 
   return (
     <div className="home">
+      <h1 style={{ display: 'none' }}>
+        Marmaris Günlük Turlar, Tekne Turları, Tarnsfer, Kiralık Araç
+      </h1>
       <div className="home__swiper">
         <Swiper
           spaceBetween={30}
@@ -60,12 +64,16 @@ const HomePage = ({}) => {
                 <TourCard
                   image={MarmarisAllInclusiveBoatTour}
                   name={t('home.popularTour.allInclusiveBoatTour')}
-                  price="200₺"
+                  price={`${t('pages.marmarisAllInclusiveBoatTour.price.adult')} ${t('currency')}`}
                   directTo="/marmaris-all-inclusive-boat-tour"
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={London} name="JEEP SAFARİ" price="200₺" />
+                <TourCard image={JeepSafari}
+                          name={t('home.popularTour.jeepSafari')}
+                          price={`${t('pages.jeepSafari.price.adult')} ${t('currency')}`}
+                          directTo="/jeep-safari"
+                />
               </Col>
               <Col xs="12" md="4" lg="3">
                 <TourCard image={London} name="ATV SAFARİ" price="200₺" />

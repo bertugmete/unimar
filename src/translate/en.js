@@ -50,7 +50,8 @@ export const English = {
         title: 'Popular Daily Tours',
         description: 'Check out our top tours',
         allInclusiveBoatTour: 'All Inclusive Boat Tour',
-        seeAllDailyTours: 'See All Daily Tours\n'
+        jeepSafari: 'Jeep Safari',
+        seeAllDailyTours: 'See All Daily Tours'
       },
       yachtTour: {
         title: 'You can take a look at our most preferred private boats and yachts.'
@@ -62,6 +63,11 @@ export const English = {
     pages: {
       marmarisAllInclusiveBoatTour: {
         title: 'Marmaris Boat Trip – All Inclusive',
+        meta: {
+          description:
+            'You can plan a great holiday by taking a look at Marmaris all inclusive boat tour prices.',
+          keywords: 'Marmaris boat tour, Marmaris boat, Marmaris daily boat tour'
+        },
         price: { adult: 10, childPrice: 4, infantPrice: 0 },
         tourGeneralInformation: {
           time: {
@@ -123,6 +129,76 @@ export const English = {
             'Since we will have plenty of swimming breaks during our boat tour; We kindly ask you to bring swimsuits, shorts, towels and also a hat, sunglasses and sunscreen to avoid exposure to the harmful rays of the sun.',
           forth:
             'We recommend that you bring equipment such as sea goggles and flippers with you so that you can see the unique underwater beauties of the bays we will visit.'
+        }
+      },
+      jeepSafari: {
+        title: 'Marmaris Jeep Safari',
+        meta: {
+          description:
+            'On the Marmaris Jeep Safari tour, you can experience the wonderful nature surrounding Marmaris, away from the noise of the city all day.',
+          keywords: 'Marmaris jeep safari, jeep safari tour'
+        },
+        price: { adult: 8, childPrice: 2, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '09:30 – 16:30'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Yes'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Days',
+            description: 'Everyday'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'Lunch'
+          }
+        },
+        firstParagraph:
+          'Get ready to explore the wonderful nature, mountains and villages surrounding Marmaris, away from the noise of the city all day, with our jeeps in a fun way. You can also take photos while walking in the famous Kızkumu as if you are walking in the middle of the sea.',
+        firstList: {
+          turgut: 'Watch the magnificent nature of the Turgut waterfall and cool off here',
+          orhaniye: 'Have a wonderful experience walking in Orhaniye Kızkumu.',
+          watergun: 'Fill water guns and join the fun in the convoy while off-roading',
+          bayir: 'Make your wishes on the historical plane tree in Bayır Village'
+        },
+        secondParagraph:
+          'Get ready to explore the wonderful and unique nature of Marmaris with our 4x4 Land Rover jeeps with adventure. ',
+        tourProgram:
+          'At 09:30 in the morning, our jeeps will take you from your hotel and join our big convoy and the fun begins. In our tour, which includes lunch, you will see the most beautiful spots of Marmaris by having fun, water fights and off-road. Our team, which will make you have unforgettable moments by visiting Armutalan Seyir Tepesi, Değirmenyanı village, Orhaniye Kızkumu, Turgut Village, Turgut Waterfall and Bayır Village and many coves and villages with the wish tree, is also the best guides of the region with its 15 years of experience. Prepare your camera and get ready for our adventure full of visual feast!',
+        includedInTheFee: {
+          freeTransfer: 'Free hotel transfer',
+          meal: 'Lunch',
+          entryFees: 'Entry Fees',
+          guide: 'Turkish guide service',
+          insurance: 'All insurances',
+        },
+        notIncludedInTheFee: {
+          beverages: 'Beverages',
+          personalExpenses: 'Personal expenses',
+          watergun: 'Water gun rental',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Vegetarian alternatives are available for lunch. Please specify your request at the time of booking.',
+          second:
+            'We recommend that you put your electronic devices in a plastic bag as your day will be covered in water and dirt.',
+          third:
+            'We recommend that you bring equipment such as sea goggles and flippers so that you can see the unique underwater beauties of the bays we will visit.',
+          forth:
+            'We recommend that you take a towel, swimsuit, sun cream, hat, sunglasses and your camera with you.'
         }
       }
     }

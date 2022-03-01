@@ -49,6 +49,7 @@ export const Turkish = {
         title: 'Popüler Günlük Turlar',
         description: 'En çok tercih edilen turlarımıza göz atın',
         allInclusiveBoatTour: 'Her Şey Dahil Tekne Turu',
+        jeepSafari: 'Jeep Safari',
         seeAllDailyTours: 'Günlük Turların Tamamını Gör'
       },
       yachtTour: {
@@ -60,7 +61,12 @@ export const Turkish = {
     },
     pages: {
       marmarisAllInclusiveBoatTour: {
-        title: 'Tekne Turu - Her Şey Dahil',
+        title: 'Marmaris Tekne Turu - Her Şey Dahil',
+        meta: {
+          description:
+            'Marmaris her şey dahil tekne turu fiyatlarına göz atarak harika bir tatil planı yapabilirsiniz.',
+          keywords: 'Marmaris tekne turu, marmaris tekne, Marmaris günübirlik tekne turu'
+        },
         price: { adult: 150, childPrice: 40, infantPrice: 0 },
         tourGeneralInformation: {
           time: {
@@ -120,6 +126,76 @@ export const Turkish = {
             'Bu gezi için iki farklı paketimiz olduğunu lütfen unutmayın. Misafirlere "Alkollü Her Şey Dahil" veya "Alkolsüz Her Şey Dahil" tekne tahsis edilecektir. Ayrılmak istemiyorsanız lütfen şirketinizle aynı paketi ayırtın.',
           third:
             'Tekne turumuz boyunca bolca yüzme molası vereceğimizden; mayo,şort,havlu ayrıca güneşin zararlı ışınlarına maruz kalmamak için şapka,güneş gözlüğü ve güneş kremi yanınıza almanızı önemle rica ederiz.',
+          forth:
+            'Ziyaret edeceğimiz koylardaki eşsiz sualtı güzellikleri görebilmeniz için deniz gözlüğü ve palet gibi ekipmanları yanınızda getirmenizi tavsiye ederiz.'
+        }
+      },
+      jeepSafari: {
+        title: 'Marmaris Jeep Safari',
+        meta: {
+          description:
+            'Marmaris Jeep Safari turumuzda tüm gün şehrin gürültüsünden uzak Marmaris’i çevreleyen harika doğayı deneyimleyebilirsiniz.',
+          keywords: 'Marmaris jeep safari, jeep safari tur'
+        },
+        price: { adult: 125, childPrice: 30, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '09:30 – 16:30'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Öğle Yemeği'
+          }
+        },
+        firstParagraph:
+          'Tüm gün şehrin gürültüsünden uzak Marmaris’i çevreleyen harika doğayı, dağları ve köyleri jeeplerimizle konvoy halinde eğlenceli şekilde keşfetmeye hazır olun. Ayrıca meşhur kızkumunda yürürken denizin ortasında yürüyormuşçasına fotoğraf çekilebilirsiniz.',
+        firstList: {
+          turgut: 'Turgut şelalesinin muhteşem doğasını izleyin ve burada serinleyin',
+          orhaniye: 'Orhaniye Kızkumunda yürüyerek muhteşem bir deneyim yaşayın',
+          watergun: 'Su tabancalarını doldurun ve off-road yaparken konvoyda eğlenceye katılın',
+          bayir: 'Bayır Köyünde tarihi çınar ağacında dileklerinizi tutun '
+        },
+        secondParagraph:
+          'Marmaris’in harika ve eşsiz doğasını 4x4 Land Rover jeeplerimiz ile macera eşliğinde keşfetmeye hazır olun. ',
+        tourProgram:
+          'Sabah 09:30 da sizleri otelinizden jeeplerimiz alarak büyük konvoyumuza katılır ve eğlence başlar. Öğle yemeğinin dahil olduğu turumuzda Marmaris’in görülecek en güzel noktalarına bol eğlence, su savaşları ve off-road yaparak göreceksiniz. Turumuzda sizleri Armutalan Seyir Tepesi, Değirmenyanı köyü ,Orhaniye Kızkumu, Turgut Köyü, Turgut Şelalesi ve Bayır Köyü ve dilek ağacı ile birçok koy ve köyleri dolaştırarak unutulmaz anlar yaşatacak ekibimiz yaklaşık 15 yıllık deneyimleriyle ayrıca bölgenin en iyi rehberleridir. Fotoğraf makinanızı hazırlayın ve görsel şölenle dolu maceramıza hazır olun! ',
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          meal: 'Öğle Yemeği',
+          entryFees: 'Limitsiz çay,kahve,su',
+          guide: 'Türkçe rehberlik hizmeti',
+          insurance: 'Tüm sigortalar',
+        },
+        notIncludedInTheFee: {
+          beverages: 'İçecekler',
+          personalExpenses: 'Kişisel harcamalar',
+          watergun: 'Su tabancası kiralama',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Öğle yemeği için vejetaryen alternatifler mevcuttur. Lütfen talebinizi rezervasyon sırasında belirtiniz.',
+          second:
+            'Gününüz su ve toz içinde olacağı için elektronik cihazlarınızı plastik bir torbaya koymanızı tavsiye ederiz.',
+          third:
+            'Havlu, mayo, güneş kremi,şapka,güneş gözlüğü ve kameranızı yanınıza almanızı öneririz. ',
           forth:
             'Ziyaret edeceğimiz koylardaki eşsiz sualtı güzellikleri görebilmeniz için deniz gözlüğü ve palet gibi ekipmanları yanınızda getirmenizi tavsiye ederiz.'
         }

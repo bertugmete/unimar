@@ -28,12 +28,13 @@
     color: #fff;
     &__name {
       line-height: 32px;
+      flex:1;
     }
 
     &__price {
       display: flex;
-      align-self: end;
       margin-left: auto;
+      font-size: 1.4rem;
     }
   }
 }
