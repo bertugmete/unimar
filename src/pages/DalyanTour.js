@@ -13,91 +13,95 @@ import Carousel from '../components/carousel/Carousel'
 import BookNow from '../modules/book-now/BookNow'
 import TourProperties from '../components/tour-properties/TourProperties'
 import List from '../components/list/List'
-import Image1 from './assets/images/jeep-safari/1.jpg'
-import Image2 from './assets/images/jeep-safari/2.jpg'
-import Image3 from './assets/images/jeep-safari/3.jpg'
-import Image4 from './assets/images/jeep-safari/4.jpg'
-import Image5 from './assets/images/jeep-safari/5.jpg'
-import Image6 from './assets/images/jeep-safari/7.jpg'
-import Image7 from './assets/images/jeep-safari/Jeep-Safari-Home.jpg'
+import Image1 from './assets/images/dalyan-tour/1.jpg'
+import Image2 from './assets/images/dalyan-tour/2.jpg'
+import Image3 from './assets/images/dalyan-tour/3.jpg'
+import Image4 from './assets/images/dalyan-tour/4.jpg'
+import Image5 from './assets/images/dalyan-tour/5.jpg'
+import Image6 from './assets/images/dalyan-tour/6.jpg'
+import Image7 from './assets/images/dalyan-tour/7.jpg'
+import Image8 from './assets/images/dalyan-tour/8.jpg'
+import Image9 from './assets/images/dalyan-tour/9.jpg'
+import Image10 from './assets/images/dalyan-tour/10.jpg'
+import Image11 from './assets/images/dalyan-tour/DalyanTour-Home.jpg'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 
-const JeepSafari = () => {
+const DalyanTour = () => {
   const { t } = useTranslation()
   return (
     <>
       <Helmet>
-        <title>{t('pages.jeepSafari.title')}</title>
+        <title>{t('pages.dalyanTour.title')}</title>
         <meta
           name="description"
-          content={t('pages.jeepSafari.meta.description')}
+          content={t('pages.dalyanTour.meta.description')}
         />
         <meta
           name="keywords"
-          content={t('pages.jeepSafari.meta.keywords')}
+          content={t('pages.dalyanTour.meta.keywords')}
         />
-        <link rel="canonical" href="http://www.unimartravel.com/jeep-safari" />
+        <link rel="canonical" href="http://www.unimartravel.com/dalyan-tour" />
       </Helmet>
       <div>
         <Container className="page">
           <Row>
             <Col xs="12" md="8" lg="8">
               <TourGeneralInformation
-                title={t('pages.jeepSafari.title')}
+                title={t('pages.dalyanTour.title')}
                 items={[
                   {
                     icon: ClockSvg,
                     title: t(
-                      'pages.jeepSafari.tourGeneralInformation.time.title'
+                      'pages.dalyanTour.tourGeneralInformation.time.title'
                     ),
                     description: t(
-                      'pages.jeepSafari.tourGeneralInformation.time.description'
+                      'pages.dalyanTour.tourGeneralInformation.time.description'
                     )
                   },
                   {
                     icon: CarSvg,
                     title: t(
-                      'pages.jeepSafari.tourGeneralInformation.transfer.title'
+                      'pages.dalyanTour.tourGeneralInformation.transfer.title'
                     ),
                     description: t(
-                      'pages.jeepSafari.tourGeneralInformation.transfer.description'
+                      'pages.dalyanTour.tourGeneralInformation.transfer.description'
                     )
                   },
                   {
                     icon: GuideSvg,
                     title: t(
-                      'pages.jeepSafari.tourGeneralInformation.guide.title'
+                      'pages.dalyanTour.tourGeneralInformation.guide.title'
                     ),
                     description: t(
-                      'pages.jeepSafari.tourGeneralInformation.guide.description'
+                      'pages.dalyanTour.tourGeneralInformation.guide.description'
                     )
                   },
                   {
                     icon: PaymentSvg,
                     title: t(
-                      'pages.jeepSafari.tourGeneralInformation.payment.title'
+                      'pages.dalyanTour.tourGeneralInformation.payment.title'
                     ),
                     description: t(
-                      'pages.jeepSafari.tourGeneralInformation.payment.description'
+                      'pages.dalyanTour.tourGeneralInformation.payment.description'
                     )
                   },
                   {
                     icon: DateSvg,
                     title: t(
-                      'pages.jeepSafari.tourGeneralInformation.days.title'
+                      'pages.dalyanTour.tourGeneralInformation.days.title'
                     ),
                     description: t(
-                      'pages.jeepSafari.tourGeneralInformation.days.description'
+                      'pages.dalyanTour.tourGeneralInformation.days.description'
                     )
                   },
                   {
                     icon: MealSvg,
                     title: t(
-                      'pages.jeepSafari.tourGeneralInformation.meal.title'
+                      'pages.dalyanTour.tourGeneralInformation.meal.title'
                     ),
                     description: t(
-                      'pages.jeepSafari.tourGeneralInformation.meal.description'
+                      'pages.dalyanTour.tourGeneralInformation.meal.description'
                     )
                   }
                 ]}
@@ -105,36 +109,42 @@ const JeepSafari = () => {
               <div className="page__images">
                 <Row>
                   <Col>
-                    <Carousel slides={[Image1, Image2, Image3, Image4, Image5, Image6, Image7]} />
+                    <Carousel slides={[Image1,Image11, Image2, Image3, Image4, Image5, Image6, Image7,
+                      Image8,
+                      Image9,
+                      Image10,
+                      Image11,
+                    ]} />
                   </Col>
                 </Row>
               </div>
             </Col>
             <Col xs="12" md="4" lg="4">
               <BookNow
-                adultPrice={t('pages.jeepSafari.price.adult')}
-                childPrice={t('pages.jeepSafari.price.childPrice')}
-                infantPrice={t('pages.jeepSafari.price.infantPrice')}
+                adultPrice={t('pages.dalyanTour.price.adult')}
+                childPrice={t('pages.dalyanTour.price.childPrice')}
+                infantPrice={t('pages.dalyanTour.price.infantPrice')}
               />
             </Col>
           </Row>
           <Row className="mt-3">
             <Col xs="12" md="8" lg="8">
               <p className="page__paragraph">
-                {t('pages.jeepSafari.firstParagraph')}
+                {t('pages.dalyanTour.firstParagraph')}
               </p>
               <br />
               <List
                 items={[
-                  t('pages.jeepSafari.firstList.turgut'),
-                  t('pages.jeepSafari.firstList.orhaniye'),
-                  t('pages.jeepSafari.firstList.watergun'),
-                  t('pages.jeepSafari.firstList.bayir')
+                  t('pages.dalyanTour.firstList.kaunos'),
+                  t('pages.dalyanTour.firstList.mudBath'),
+                  t('pages.dalyanTour.firstList.carretta'),
+                  t('pages.dalyanTour.firstList.cam'),
+                  t('pages.dalyanTour.firstList.lunch'),
                 ]}
               />
               <br />
               <p className="page__paragraph">
-                {t('pages.jeepSafari.secondParagraph')}
+                {t('pages.dalyanTour.secondParagraph')}
               </p>
             </Col>
           </Row>
@@ -156,7 +166,7 @@ const JeepSafari = () => {
 
 const TourProgram = () => {
   const { t } = useTranslation()
-  return <p className="page__paragraph">{t('pages.jeepSafari.tourProgram')}</p>
+  return <p className="page__paragraph">{t('pages.dalyanTour.tourProgram')}</p>
 }
 
 const IncludedInTheFee = () => {
@@ -164,11 +174,11 @@ const IncludedInTheFee = () => {
   return (
     <List
       items={[
-        t('pages.jeepSafari.includedInTheFee.freeTransfer'),
-        t('pages.jeepSafari.includedInTheFee.meal'),
-        t('pages.jeepSafari.includedInTheFee.entryFees'),
-        t('pages.jeepSafari.includedInTheFee.guide'),
-        t('pages.jeepSafari.includedInTheFee.insurance'),
+        t('pages.dalyanTour.includedInTheFee.freeTransfer'),
+        t('pages.dalyanTour.includedInTheFee.meal'),
+        t('pages.dalyanTour.includedInTheFee.entryFees'),
+        t('pages.dalyanTour.includedInTheFee.guide'),
+        t('pages.dalyanTour.includedInTheFee.insurance')
       ]}
     />
   )
@@ -180,9 +190,9 @@ const notIncludedInTheFee = () => {
   return (
     <List
       items={[
-        t('pages.jeepSafari.notIncludedInTheFee.beverages'),
-        t('pages.jeepSafari.notIncludedInTheFee.personalExpenses'),
-        t('pages.jeepSafari.notIncludedInTheFee.privatePhotoVideo')
+        t('pages.dalyanTour.notIncludedInTheFee.beverages'),
+        t('pages.dalyanTour.notIncludedInTheFee.personalExpenses'),
+        t('pages.dalyanTour.notIncludedInTheFee.privatePhotoVideo')
       ]}
       icon={CrossSvg}
     />
@@ -195,14 +205,11 @@ const frequentlyAskedQuestions = () => {
   return (
     <List
       items={[
-        t('pages.jeepSafari.frequentlyAskedQuestions.first'),
-        t('pages.jeepSafari.frequentlyAskedQuestions.second'),
-        t('pages.jeepSafari.frequentlyAskedQuestions.third'),
-        t('pages.jeepSafari.frequentlyAskedQuestions.forth')
+        t('pages.dalyanTour.frequentlyAskedQuestions.first'),
       ]}
       icon={QuestionMark}
     />
   )
 }
 
-export default JeepSafari
+export default DalyanTour

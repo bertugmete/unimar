@@ -191,6 +191,12 @@ h2 {
 .page {
   margin-top: 100px;
   padding-bottom: 20px;
+
+  &__images {
+    .swiper {
+      height: 600px;
+    }
+  }
 }
 
 .icon {
@@ -205,10 +211,12 @@ h2 {
     }
   }
 }
+
 .nav-link {
   background-color: #fcede8;
   color: #000;
 }
+
 .nav-link.active {
   background: #ef6c00 !important;
   color: #fff !important;
@@ -227,6 +235,7 @@ h2 {
     font-size: 0.8rem;
   }
 }
+
 .form-floating > .form-control:focus,
 .form-floating > .form-control:not(:placeholder-shown) {
   @media (max-width: 990px) {

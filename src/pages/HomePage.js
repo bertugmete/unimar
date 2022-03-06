@@ -7,6 +7,7 @@ import Venezia1 from './assets/images/venezia-1.jpeg'
 import Istanbul from './assets/images/istanbul.jpeg'
 import London from './assets/images/london.jpeg'
 import MarmarisAllInclusiveBoatTour from './assets/images/marmaris-all-inclusive-boat-tour/MarmarisAllInclusiveBoatTour-Home.jpg'
+import DalyanTour from './assets/images/dalyan-tour/DalyanTour-Home.jpg'
 import JeepSafari from './assets/images/jeep-safari/Jeep-Safari-Home.jpg'
 import 'swiper/css/navigation'
 import 'swiper/css'
@@ -76,7 +77,11 @@ const HomePage = ({}) => {
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={London} name="ATV SAFARİ" price="200₺" />
+                <TourCard image={DalyanTour}
+                          name={t('home.popularTour.dalyanTour')}
+                          price={`${t('pages.dalyanTour.price.adult')} ${t('currency')}`}
+                          directTo="/dalyan-tour"
+                />
               </Col>
               <Col xs="12" md="4" lg="3">
                 <TourCard image={London} name="BUGGY SAFARİ" price="200₺" />

@@ -4,8 +4,11 @@
     align-items: center;
     margin: 3px 0;
     line-height: 1.4rem;
-    border-bottom: 1px solid #fcede8;
-    padding: 2px 0;
+    @media (max-width: 990px) {
+      border-bottom: 1px solid #fcede8;
+      padding: 2px 0;
+    }
+
     &__image {
       &__wrapper {
         background: #fcede8;

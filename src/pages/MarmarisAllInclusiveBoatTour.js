@@ -102,7 +102,7 @@ const MarmarisAllInclusiveBoatTour = () => {
                   }
                 ]}
               />
-              <div>
+              <div className="page__images">
                 <Row>
                   <Col>
                     <Carousel slides={[Image1, Image2, Image3, Image4, Image5, Image6, Image7]} />

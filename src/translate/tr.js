@@ -50,6 +50,7 @@ export const Turkish = {
         description: 'En çok tercih edilen turlarımıza göz atın',
         allInclusiveBoatTour: 'Her Şey Dahil Tekne Turu',
         jeepSafari: 'Jeep Safari',
+        dalyanTour: 'Dalyan Caunos Tekne Turu',
         seeAllDailyTours: 'Günlük Turların Tamamını Gör'
       },
       yachtTour: {
@@ -198,6 +199,70 @@ export const Turkish = {
             'Havlu, mayo, güneş kremi,şapka,güneş gözlüğü ve kameranızı yanınıza almanızı öneririz. ',
           forth:
             'Ziyaret edeceğimiz koylardaki eşsiz sualtı güzellikleri görebilmeniz için deniz gözlüğü ve palet gibi ekipmanları yanınızda getirmenizi tavsiye ederiz.'
+        }
+      },
+      dalyanTour: {
+        title: 'Dalyan Caunos Tekne Turu',
+        meta: {
+          description:
+            "İztuzu Tekne Turu, Marmaris'ten Dalyan'a harika bir tekne turu yapacağınız harika bir deneyim. Kaplumbağa Plajı, Tapınak Mezarları ve Çamur Banyoları gibi ünlü yerleri de ziyaret edeceksiniz.",
+          keywords: 'Dalyan tur, kaplumbağa sahili, dalyan tekne turu'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '08:30 – 19:30'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Öğle Yemeği'
+          }
+        },
+        firstParagraph:
+          "Marmaris Kaplumbağa Plajı(İztuzu) Tekne Turu, Marmaris'ten Dalyan'a harika bir tekne turu yapacağınız harika bir deneyim. Kaplumbağa Plajı, Tapınak Mezarları ve Çamur Banyoları gibi ünlü yerleri de ziyaret edeceksiniz.",
+        firstList: {
+          kaunos: "Kaunos Krallarının kaya mezarlarına hayran kalarak Likya Sahili'ni gezin",
+          mudBath: "Dalyan'ın çamur banyolarında ve kaplıcalarında şifa bulun",
+          carretta: "Caretta carettalarıyla ünlü Kaplumbağa Plajı'na yelken açın",
+          cam: "Dalyan Kanalı'nda tekneyle seyahat edin",
+          lunch: "Teknede öğle yemeğinin tadını çıkarın"
+        },
+        secondParagraph:
+          'Dalyan; birçok güzelliği içinde bulunduran aynı anda farklı deneyimler yaşayacağınız dünyada sayılı turizm merkezlerinden biridir. Turumuz size deniz,sağlık ve kültür turunu aynı gün içinde yaşatacaktır. ',
+        tourProgram:
+          "Sabah 08:30’da otellerinizden sizleri servislerimizle limandaki teknemize ulaştırırız. 09:00’da teknemiz limandan ayrılarak güzergah üstünde Cennet Adası Akvaryum Koyunda yüzme molası verir ve yaklaşık 2 saatlik bir yolculukla İztuzu plajına varılır. Burada verilecek molamızda bir tarafı tatlı,bir tarafı tuzlu olan İztuzu plajında denizin ve güneşin tadını çıkarabilir; dünyaca meşhur caretta kaplumbağaları ve yaşam alanlarını görebilirsiniz. Daha sonra Kral Mezarlıklarını ziyaretinde tarihin günümüzle buluşmasına tanıklık edeceksiniz. Şifa merkezi olan çamur banyosu ve termal havuz ziyaretimizden sonra teknemize Dalyan deltasında piyadeler ile nehir turu yaparak geçerek dönüş yoluna çıkılır. Saat 19:00 da Marmaris’e varış sağlanmaktadır ve otel transferlerimiz ile turumuzu tamamlarız.",
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          meal: 'Öğle Yemeği',
+          entryFees: 'Giriş Ücretleri',
+          guide: 'Türkçe rehberlik hizmeti',
+          insurance: 'Tüm sigortalar',
+        },
+        notIncludedInTheFee: {
+          beverages: 'İçecekler',
+          personalExpenses: 'Kişisel harcamalar',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Havlu, mayo, güneş kremi,şapka,güneş gözlüğü ve kameranızı yanınıza almanızı öneririz. ',
         }
       }
     }

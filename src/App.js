@@ -4,9 +4,10 @@ import { ToastContainer } from 'react-toastify'
 import HomePage from './pages/HomePage'
 import Header from './layout/header/Header'
 import JeepSafari from './pages/JeepSafari'
+import DalyanTour from './pages/DalyanTour'
 import BoatTour from './pages/BoatTour'
 import DailyTours from './pages/DailyTours'
-import MarmarisAllInclusiveBoatTour from './pages/ MarmarisAllInclusiveBoatTour'
+import MarmarisAllInclusiveBoatTour from './pages/MarmarisAllInclusiveBoatTour'
 import Whatsapp from './components/whatsapp/Whatsapp'
 import ScrollToTop from './components/scroll-to-top/ScrollToTop'
 import 'react-toastify/dist/ReactToastify.css'
@@ -41,6 +42,7 @@ const App = () => {
               <Route path="/contact" render={Contact} />
               <Route path="/jeep-safari" render={() => <JeepSafari />} />
               <Route path="/daily-tours" render={DailyTours} />
+              <Route path="/dalyan-tour" render={() => <DalyanTour />} />
               <Route
                 path="/marmaris-all-inclusive-boat-tour"
                 render={() => <MarmarisAllInclusiveBoatTour />}

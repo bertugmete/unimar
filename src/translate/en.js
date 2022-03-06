@@ -200,7 +200,72 @@ export const English = {
           forth:
             'We recommend that you take a towel, swimsuit, sun cream, hat, sunglasses and your camera with you.'
         }
+      },
+      dalyanTour: {
+        title: 'DALYAN CAUNOS BOAT TRIP',
+        meta: {
+          description:
+            "Marmaris Turtle Beach(Iztuzu) Boat Trip is a great experience where you will have a great boat trip from Marmaris to Dalyan. You will also visit famous sites such as Turtle Beach, Temple Tombs, and Mud Baths.",
+          keywords: 'Dalyan Tour, turtle beach, dalyan boat tour'
+        },
+        price: { adult: 10, childPrice: 4, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '08:30 – 19:30'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Yes'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Days',
+            description: 'Everyday'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'Lunch'
+          }
+        },
+        firstParagraph:
+          "General information: Marmaris Turtle Beach(Iztuzu) Boat Trip is a great experience where you will have a great boat trip from Marmaris to Dalyan. You will also visit famous sites such as Turtle Beach, Temple Tombs, and Mud Baths.",
+        firstList: {
+          kaunos: "Travel the Lycian Coast admiring the rock tombs of the Kings of Kaunos",
+          mudBath: "Find healing in the mud baths and thermal springs of Dalyan",
+          carretta: "Sail to Turtle Beach, famous for its caretta carettas",
+          cam: "Travel by boat on the Dalyan Canal",
+          lunch: "Enjoy lunch on the boat"
+        },
+        secondParagraph:
+          'Dalyan; It is one of the few tourism centers in the world where you will experience different experiences at the same time, which contains many beauties. Our tour will make you experience the sea, health and culture tour in the same day.',
+        tourProgram:
+          "At 08:30 in the morning, we will take you from your hotels to our boat in the port with our shuttles. At 09:00, our boat leaves the harbor and takes a swimming break at Cennet Island Aquarium Bay on the route and reaches Iztuzu beach with a 2-hour journey. During our break here, you can enjoy the sea and the sun at Iztuzu beach, which is sweet on one side and salty on the other; You can see the world-famous caretta turtles and their habitats. Afterwards, you will witness the meeting of history with the present during the visit to the King's Cemeteries. After our visit to the mud bath and thermal pool, which is a healing center, we go to our boat by making a river tour with the infantry in the Dalyan delta and on the way back. Arrival to Marmaris is provided at 19:00 and we complete our tour with our hotel transfers.",
+        includedInTheFee: {
+          freeTransfer: 'Free hotel transfer',
+          meal: 'Lunch',
+          entryFees: 'Entry Fees',
+          guide: 'Guiding Service',
+          insurance: 'All insurances',
+        },
+        notIncludedInTheFee: {
+          beverages: 'Beverages',
+          personalExpenses: 'Personal expenses',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'We recommend that you take a towel, swimsuit, suncream, hat, sunglasses and your camera with you.',
+        }
       }
+
     }
   }
 }
