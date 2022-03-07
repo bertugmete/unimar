@@ -13,6 +13,7 @@ import Diving from './assets/images/diving/Diving-Home.jpeg'
 import HorseSafari from './assets/images/horse-safari/Horse-Safari-Home.jpg'
 import BuggySafari from './assets/images/buggy-safari/BuggySafari-HomePage.jpg'
 import Bath from './assets/images/bath/Bath-Home-Page.jpg'
+import QuadSafari from './assets/images/quad-safari/Quad-Safari-Home.jpg'
 import 'swiper/css/navigation'
 import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
@@ -122,7 +123,12 @@ const HomePage = ({}) => {
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={London} name=" HİSARÖNÜ TEKNE TURU" price="200₺" />
+                <TourCard
+                  image={QuadSafari}
+                  name={t('home.popularTour.quadSafari')}
+                  price={`${t('pages.bath.price.adult')} ${t('currency')}`}
+                  directTo="/quad-safari"
+                />
               </Col>
             </Row>
           </div>

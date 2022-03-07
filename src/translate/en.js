@@ -56,7 +56,8 @@ export const English = {
         diving: 'Marmaris Diving Tour',
         horseSafari: 'Horse Safari',
         buggySafari: 'Buggy Safari',
-        bath: 'Turlish Bath'
+        bath: 'Turkish Bath',
+        quadSafari: 'Quad Safari'
       },
       yachtTour: {
         title: 'You can take a look at our most preferred private boats and yachts.'
@@ -540,6 +541,73 @@ export const English = {
           third:
             'Always walk in slippers. Otherwise, you can easily slide on the steamy wet marble floor.',
           forth: 'Oil massage is not applied to children under 12 years of age.'
+        }
+      },
+      quadSafari: {
+        title: 'Quad Safari',
+        meta: {
+          description:
+            'With our Marmaris ATV Safari program, you will have one of the most enjoyable memories of your holiday that you will never forget. The adventure begins with the operation of powerful engines and you will find yourself on our wonderful track in nature, where you will pass through water, soil and mud.',
+          keywords: 'atv safari, quad safari'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '10:00 – 16:00'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Yes'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Day',
+            description: 'Everyday'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'No'
+          }
+        },
+        firstParagraph:
+          'With our Marmaris ATV Safari program, you will have one of the most enjoyable memories of your holiday that you will never forget. The adventure begins with the operation of powerful engines and you will find yourself on our wonderful track in nature, where you will pass through water, soil and mud.',
+        firstList: {
+          atv: 'Explore the area near Marmaris with ATV bikes accompanied by our professional guides.',
+          mounth:
+            'Get away from the crowds of Marmaris and explore the pine-scented forests of the nearby mountains.',
+          pickUp: 'You can choose one of the multiple tour departure times to suit your schedule.'
+        },
+        secondParagraph:
+          'Our ATV Safari tour, which is organized in 4 sessions every day, is an exciting activity that lasts for a total of 3 hours, with sessions between 10:00-12:00-14:00 and 16:00.',
+        tourProgram:
+          'Our shuttles from the hotels will pick you up and take you to our track after a 20-minute drive. You will have an adventurous driving experience in our action-packed track consisting of dust, soil, water and mud. Our professional team will show you the necessary usage instructions before the tour, and following these instructions will help you and our other guests to enjoy our tour happily and safely. Our safari, which will be in convoy with ATV engines, takes 1 hour and 15 minutes. Our track is closed to traffic and is in a special area where all security measures are taken; It is prepared for excitement and adrenaline with pitted ramps, water pools, sharp bends and mud hills.\n' +
+          'Children under the age of 14 can join our tour with their families; Anyone aged 15 and over can join the tour. The motors are priced separately according to single or double person boarding. We recommend that you come with your old clothes as there will be dust, smoke and dirt on our tour.',
+        includedInTheFee: {
+          freeTransfer: 'Free hotel transfer',
+          atv: 'ATV Safari tour',
+          security: 'Safety Equipment',
+          guide: 'Guidance Service',
+          insurance: 'All insurances'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Food and Drinks',
+          personalExpenses: 'Personal expenses',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            "Children under the age of 14 are not allowed to drive, no previous experience or driver's license is required.",
+          second:
+            'We recommend that you bring extra clothes with you as you will get dirty on this trip. You can then use the showers to clean up.',
+          third: 'We recommend that you bring a hat, sunglasses, sunscreen and a towel.'
         }
       }
     }

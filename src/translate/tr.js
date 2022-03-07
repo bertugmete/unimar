@@ -55,7 +55,8 @@ export const Turkish = {
         diving: 'Marmaris Dalış Turu',
         horseSafari: 'At Safari',
         buggySafari: 'Buggy Safari',
-        bath: 'Türk Hamamı'
+        bath: 'Türk Hamamı',
+        quadSafari: 'ATV Safari'
       },
       yachtTour: {
         title: 'En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz'
@@ -539,6 +540,74 @@ export const Turkish = {
           third:
             'Daima terlikle yürüyün. Aksi takdirde buharlı ıslak mermer zeminde kolayca kayabilirsiniz.',
           forth: '12 yaşından küçük çocuklara yağ masajı uygulanmaz.'
+        }
+      },
+      quadSafari: {
+        title: 'ATV Safari',
+        meta: {
+          description:
+            'Marmaris Atv Safari programımız ile tatilinizde hiç unutamayacağınız en eğlenceli anılardan birine sahip olacaksınız. Güçlü motorların çalışmasıyla macera başlar ve su, toprak ve çamurlardan geçeceğiniz doğanın içinde harika parkurumuzda kendinizi bulacaksınız.',
+          keywords: 'atv safari, safari'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '10:00 – 16:00'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Yok'
+          }
+        },
+        firstParagraph:
+          'Marmaris Atv Safari programımız ile tatilinizde hiç unutamayacağınız en eğlenceli anılardan birine sahip olacaksınız. Güçlü motorların çalışmasıyla macera başlar ve su, toprak ve çamurlardan geçeceğiniz doğanın içinde harika parkurumuzda kendinizi bulacaksınız.',
+        firstList: {
+          atv: 'Profesyonel rehberlerimiz eşliğinde ATV motorlar ile Marmaris yakınlarındaki bölgeyi keşfedin',
+          mounth:
+            "Marmaris'teki kalabalıktan uzaklaşarak ve yakınlardaki dağların çam kokulu ormanlarını keşfedin.",
+          pickUp:
+            'Programınıza uygun olacak şekilde birden fazla olan tur kalkış saatlerinden birini seçebilirsiniz'
+        },
+        secondParagraph:
+          'Hergün 4 seans şeklinde düzenlenen Atv Safari turumuz 10:00-12:00-14:00 ve 16:00 seansları ile toplam 3 saat süren heyecan dolu bir aktivitemizdir.',
+        tourProgram:
+          'Otellerden servislerimiz sizi alır ve 20 dakikalık süren bir yoldan sonra parkurumuza ulaştırır. Toz, toprak,su ve çamurdan oluşan aksiyon dolu parkurumuzda macera dolu bir sürüş deneyimine sahip olacaksınız. Profesyonel ekibimiz size tur öncesi gerekli kullanım talimatlarını gösterir ve bu talimatların dışına çıkılmaması hem sizin hemde diğer misafirlerimizin mutlu ve güvenli şekilde turumuzun tadını çıkarmanızda yardımcı olacaktır. ATV motorları ile konvoy halinde olacak safarimiz 1 saat 15 dakika sürmektedir. Parkurumuz trafiğe kapalı ve tüm güvenlik önlemlerinin alındığı özel bir alanda olup; çukurlu rampalar, su havuzları, keskin virajlar ve çamur tepeleri ile heyecan ve adrenalin için hazırlanmıştır. \n' +
+          'Turumuza 14 yaş altı çocuklar aileleri ile katılabilirler; 15 yaş ve üzeri herkes tura katılabilir. Motorlara tek kişi veya çift kişi binişe göre ayrı fiyatlandırılmaktadır. Turumuzda toz,duman ve kir olacağından eski kıyafetlerinizle gelmenizi tavsiye ederiz.',
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          atv: 'ATV Safari turu ',
+          security: 'Güvenlik Ekipmanları',
+          guide: 'Rehberlik Hizmeti ',
+          insurance: 'Tüm sigortalar'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Yemek ve İçecekler',
+          personalExpenses: 'Kişisel harcamalar',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            '14 yaşından küçük çocukların araç kullanmasına izin verilmez, daha önce herhangi bir deneyim veya ehliyet gerekmez.',
+          second:
+            'Bu gezide kirleneceğiniz için yanınızda fazladan kıyafet getirmenizi öneririz. Daha sonra temizlenmek için duşları kullanabilirsiniz.',
+          third: 'Şapka, güneş gözlüğü, güneş kremi ve havlu getirmenizi öneririz.'
         }
       }
     }

@@ -18,6 +18,7 @@ import Diving from './pages/Diving'
 import HorseSafari from './pages/HorseSafari'
 import BuggySafari from './pages/BuggySafari'
 import Bath from './pages/Bath'
+import QuadSafari from './pages/QuadSafari'
 
 const App = () => {
   const { i18n } = useTranslation()
@@ -51,6 +52,7 @@ const App = () => {
               <Route path="/horse-safari" render={() => <HorseSafari />} />
               <Route path="/buggy-safari" render={() => <BuggySafari />} />
               <Route path="/bath" render={() => <Bath />} />
+              <Route path="/quad-safari" render={() => <QuadSafari />} />
               <Route
                 path="/marmaris-all-inclusive-boat-tour"
                 render={() => <MarmarisAllInclusiveBoatTour />}
