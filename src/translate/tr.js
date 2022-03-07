@@ -53,7 +53,8 @@ export const Turkish = {
         dalyanTour: 'Dalyan Caunos Tekne Turu',
         seeAllDailyTours: 'Günlük Turların Tamamını Gör',
         diving: 'Marmaris Dalış Turu',
-        horseSafari: 'At Safari'
+        horseSafari: 'At Safari',
+        buggySafari: 'Buggy Safari'
       },
       yachtTour: {
         title: 'En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz'
@@ -401,6 +402,74 @@ export const Turkish = {
           third:
             'Lütfen rahat ayakkabılar, mevsime uygun giysiler ve güneş gözlüğü getirmeyi unutmayın.',
           forth: '8 yaşından küçük çocuklar sadece aile üyelerinden biri ile ata binebilir.'
+        }
+      },
+      buggySafari: {
+        title: 'Buggy Safari',
+        meta: {
+          description:
+            'Marmaris Buggy Safari programımız ile Marmaris’in muhteşem doğası içinde off-road sürüş keyfini yaşayacaksınız. Trafiğe kapalı özel alanımızda su, toprak ve çamurlardan geçeceğiniz doğanın içinde harika parkurumuzda kendinizi bulacaksınız.',
+          keywords: 'buggy safari, safari'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '10:00 – 16:00'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Yok'
+          }
+        },
+        firstParagraph:
+          'Marmaris Buggy Safari programımız ile Marmaris’in muhteşem doğası içinde off-road sürüş keyfini yaşayacaksınız. Trafiğe kapalı özel alanımızda su, toprak ve çamurlardan geçeceğiniz doğanın içinde harika parkurumuzda kendinizi bulacaksınız.',
+        firstList: {
+          guide:
+            'Profesyonel rehberlerimiz eşliğinde Buggy araçlar ile Marmaris yakınlarındaki bölgeyi keşfedin',
+          experience:
+            "Marmaris'teki kalabalıktan uzaklaşarak ve yakınlardaki dağların çam kokulu ormanlarını keşfedin.",
+          program:
+            'Programınıza uygun olacak şekilde birden fazla olan tur kalkış saatlerinden birini seçebilirsiniz'
+        },
+        secondParagraph:
+          'Hergün 4 seans şeklinde düzenlenen Buggy Safari turumuz 10:00-12:00-14:00 ve 16:00 seansları ile toplam 3 saat süren heyecan dolu bir aktivitemizdir. ',
+        tourProgram:
+          'Otellerden servislerimiz sizi alır ve 20 dakikalık süren bir yoldan sonra parkurumuza ulaştırır. Toz, toprak,su ve çamurdan oluşan aksiyon dolu parkurumuzda macera dolu bir sürüş deneyimine sahip olacaksınız. Profesyonel ekibimiz size tur öncesi gerekli kullanım talimatlarını gösterir ve bu talimatların dışına çıkılmaması hem sizin hemde diğer misafirlerimizin mutlu ve güvenli şekilde turumuzun tadını çıkarmanızda yardımcı olacaktır. Buggy araçlar ile konvoy halinde olacak safarimiz 1 saat 15 dakika sürmektedir. Parkurumuz trafiğe kapalı ve tüm güvenlik önlemlerinin alındığı özel bir alanda olup; çukurlu rampalar, su havuzları, keskin virajlar ve çamur tepeleri ile heyecan ve adrenalin için hazırlanmıştır. 14 yaşından küçüklerin sürücü olarak katılmaları mümkün değildir ancak aile fertlerinin sürdüğü aracın yan koltuğunda oturarak bu turun heycanını onlarda yaşayabilirler. 14 yaş üstünde olan çocuklar ise aile büyüklerinden biri ile bu tura katılarak sürüşlerini gerçekleştirebilir. Bol sulu ve çamurlu bir organizasyon olan Marmaris Buggy Safari ile keyifli dakikalar geçireceğinizden hiç şüpheniz olmasın. Atv safari ile birlikte aynı pist üzerinde düzenlenmekte olan bu turumuz aynı zamanda da gruplar halinde ilerlemektedir.',
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          atv: 'ATV Safari turu  ',
+          safetyEquipment: 'Güvenlik Ekipmanları',
+          guide: 'Rehberlik Hizmeti',
+          insurance: 'Tüm sigortalar'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Yemek ve İçecekler',
+          personalExpenses: 'Kişisel harcamalar',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            '14 yaşından küçük çocukların araç kullanmasına izin verilmez, daha önce herhangi bir deneyim veya ehliyet gerekmez.',
+          second:
+            'Bu gezide kirleneceğiniz için yanınızda fazladan kıyafet getirmenizi öneririz. Daha sonra temizlenmek için duşları kullanabilirsiniz.',
+          third: 'Şapka, güneş gözlüğü, güneş kremi ve havlu getirmenizi öneririz.'
         }
       }
     }

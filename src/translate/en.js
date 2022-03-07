@@ -53,7 +53,8 @@ export const English = {
         jeepSafari: 'Jeep Safari',
         seeAllDailyTours: 'See All Daily Tours',
         diving: 'Marmaris Diving Tour',
-        horseSafari: 'Horse Safari'
+        horseSafari: 'Horse Safari',
+        buggySafari: 'Buggy Safari'
       },
       yachtTour: {
         title: 'You can take a look at our most preferred private boats and yachts.'
@@ -401,6 +402,74 @@ export const English = {
           second: 'This tour is also not suitable for pregnant women.',
           third: 'Please remember to bring comfortable shoes, seasonal clothing and sunglasses.',
           forth: 'Children under 8 years old can only ride with a family member.'
+        }
+      },
+      buggySafari: {
+        title: 'Buggy Safari',
+        meta: {
+          description:
+            'With our Marmaris Buggy Safari program, you will enjoy off-road driving in the magnificent nature of Marmaris. You will find yourself on our wonderful track in nature, where you will pass through water, soil and mud in our private area closed to traffic.',
+          keywords: 'buggy safari, safari'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '10:00 – 16:00'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Yes'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Days',
+            description: 'Everyday'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'No'
+          }
+        },
+        firstParagraph:
+          'With our Marmaris Buggy Safari program, you will enjoy off-road driving in the magnificent nature of Marmaris. You will find yourself on our wonderful track in nature, where you will pass through water, soil and mud in our private area closed to traffic.',
+        firstList: {
+          guide:
+            'Explore the area near Marmaris with Buggy vehicles accompanied by our professional guides.',
+          experience:
+            'Get away from the crowds of Marmaris and explore the pine-scented forests of the nearby mountains.',
+          program: 'You can choose one of the multiple tour departure times to suit your schedule.'
+        },
+        secondParagraph:
+          'Our Buggy Safari tour, which is organized in 4 sessions every day, is an exciting activity that lasts for a total of 3 hours with sessions between 10:00-12:00-14:00 and 16:00',
+        tourProgram:
+          'Our shuttles from the hotels will pick you up and take you to our track after a 20-minute drive. You will have an adventurous driving experience in our action-packed track consisting of dust, soil, water and mud. Our professional team will show you the necessary usage instructions before the tour, and following these instructions will help you and our other guests to enjoy our tour happily and safely. Our safari, which will be in convoy with buggy vehicles, takes 1 hour and 15 minutes. Our track is closed to traffic and is in a special area where all security measures are taken; It is prepared for excitement and adrenaline with pitted ramps, water pools, sharp bends and mud hills.\n' +
+          'It is not possible for people under the age of 14 to participate as a driver, but they can experience the excitement of this tour by sitting in the side seat of the vehicle driven by their family members. Children over the age of 14 can join this tour with one of their elders and enjoy their rides. There is no doubt that you will spend pleasant moments with Marmaris Buggy Safari, which is an organization with plenty of water and mud. This tour, which is organized on the same track with the ATV safari, also progresses in groups.',
+        includedInTheFee: {
+          freeTransfer: 'Free hotel transfer',
+          atv: 'ATV Safari tour',
+          safetyEquipment: 'Safety Equipment',
+          guide: 'Guidance Service',
+          insurance: 'All insurances'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Food and Drinks',
+          personalExpenses: 'Personal expenses',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            "Children under 14 are not allowed to drive, no previous experience or driver's license is required.",
+          second:
+            'We recommend that you bring extra clothes with you as you will get dirty on this trip. You can then use the showers to clean up.',
+          third: 'We recommend that you bring a hat, sunglasses, sunscreen and a towel.'
         }
       }
     }

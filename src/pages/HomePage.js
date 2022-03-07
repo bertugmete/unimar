@@ -11,6 +11,7 @@ import DalyanTour from './assets/images/dalyan-tour/DalyanTour-Home.jpg'
 import JeepSafari from './assets/images/jeep-safari/Jeep-Safari-Home.jpg'
 import Diving from './assets/images/diving/Diving-Home.jpeg'
 import HorseSafari from './assets/images/horse-safari/Horse-Safari-Home.jpg'
+import BuggySafari from './assets/images/buggy-safari/BuggySafari-HomePage.jpg'
 import 'swiper/css/navigation'
 import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
@@ -104,7 +105,12 @@ const HomePage = ({}) => {
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={London} name="DALYAN TEKNE TURU" price="200₺" />
+                <TourCard
+                  image={BuggySafari}
+                  name={t('home.popularTour.buggySafari')}
+                  price={`${t('pages.buggySafari.price.adult')} ${t('currency')}`}
+                  directTo="/buggy-safari"
+                />
               </Col>
               <Col xs="12" md="4" lg="3">
                 <TourCard image={London} name="TEKNE TURU" price="200₺" />

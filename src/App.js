@@ -16,6 +16,7 @@ import Contact from './pages/Contact'
 import { useTranslation } from 'react-i18next'
 import Diving from './pages/Diving'
 import HorseSafari from './pages/HorseSafari'
+import BuggySafari from './pages/BuggySafari'
 
 const App = () => {
   const { i18n } = useTranslation()
@@ -47,6 +48,7 @@ const App = () => {
               <Route path="/dalyan-tour" render={() => <DalyanTour />} />
               <Route path="/diving" render={() => <Diving />} />
               <Route path="/horse-safari" render={() => <HorseSafari />} />
+              <Route path="/buggy-safari" render={() => <BuggySafari />} />
               <Route
                 path="/marmaris-all-inclusive-boat-tour"
                 render={() => <MarmarisAllInclusiveBoatTour />}
