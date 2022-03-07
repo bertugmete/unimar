@@ -14,23 +14,11 @@ const Language = () => {
       <div className="languages__item icon__wrapper" onClick={() => handleOnChangeLanguage('tr')}>
         <img width={24} height={24} src={TurkishPng} alt="turkish" />
       </div>
-      <div className="languages__item icon__wrapper">
-        <img
-          width={24}
-          height={24}
-          src={EnglishPng}
-          alt="english"
-          onClick={() => handleOnChangeLanguage('en')}
-        />
+      <div className="languages__item icon__wrapper" onClick={() => handleOnChangeLanguage('en')}>
+        <img width={24} height={24} src={EnglishPng} alt="english" />
       </div>
-      <div className="languages__item icon__wrapper">
-        <img
-          width={24}
-          height={24}
-          src={RussianPng}
-          alt="russian"
-          onClick={() => handleOnChangeLanguage('ru')}
-        />
+      <div className="languages__item icon__wrapper" onClick={() => handleOnChangeLanguage('ru')}>
+        <img width={24} height={24} src={RussianPng} alt="russian" />
       </div>
     </div>
   )

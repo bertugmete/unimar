@@ -195,6 +195,9 @@ h2 {
   &__images {
     .swiper {
       height: 600px;
+      @media (max-width: 990px) {
+        height: 400px;
+      }
     }
   }
 }

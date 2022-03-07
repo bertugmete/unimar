@@ -9,6 +9,7 @@ import London from './assets/images/london.jpeg'
 import MarmarisAllInclusiveBoatTour from './assets/images/marmaris-all-inclusive-boat-tour/MarmarisAllInclusiveBoatTour-Home.jpg'
 import DalyanTour from './assets/images/dalyan-tour/DalyanTour-Home.jpg'
 import JeepSafari from './assets/images/jeep-safari/Jeep-Safari-Home.jpg'
+import Diving from './assets/images/diving/Diving-Home.jpeg'
 import 'swiper/css/navigation'
 import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
@@ -70,21 +71,28 @@ const HomePage = ({}) => {
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={JeepSafari}
-                          name={t('home.popularTour.jeepSafari')}
-                          price={`${t('pages.jeepSafari.price.adult')} ${t('currency')}`}
-                          directTo="/jeep-safari"
+                <TourCard
+                  image={JeepSafari}
+                  name={t('home.popularTour.jeepSafari')}
+                  price={`${t('pages.jeepSafari.price.adult')} ${t('currency')}`}
+                  directTo="/jeep-safari"
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={DalyanTour}
-                          name={t('home.popularTour.dalyanTour')}
-                          price={`${t('pages.dalyanTour.price.adult')} ${t('currency')}`}
-                          directTo="/dalyan-tour"
+                <TourCard
+                  image={DalyanTour}
+                  name={t('home.popularTour.dalyanTour')}
+                  price={`${t('pages.dalyanTour.price.adult')} ${t('currency')}`}
+                  directTo="/dalyan-tour"
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={London} name="BUGGY SAFARİ" price="200₺" />
+                <TourCard
+                  image={Diving}
+                  name={t('home.popularTour.diving')}
+                  price={`${t('pages.diving.price.adult')} ${t('currency')}`}
+                  directTo="/diving"
+                />
               </Col>
               <Col xs="12" md="4" lg="3">
                 <TourCard image={London} name="HAMAM" price="200₺" />

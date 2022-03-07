@@ -14,6 +14,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import Footer from './layout/footer/Footer'
 import Contact from './pages/Contact'
 import { useTranslation } from 'react-i18next'
+import Diving from './pages/Diving'
 
 const App = () => {
   const { i18n } = useTranslation()
@@ -43,6 +44,7 @@ const App = () => {
               <Route path="/jeep-safari" render={() => <JeepSafari />} />
               <Route path="/daily-tours" render={DailyTours} />
               <Route path="/dalyan-tour" render={() => <DalyanTour />} />
+              <Route path="/diving" render={() => <Diving />} />
               <Route
                 path="/marmaris-all-inclusive-boat-tour"
                 render={() => <MarmarisAllInclusiveBoatTour />}

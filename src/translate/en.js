@@ -182,7 +182,7 @@ export const English = {
           meal: 'Lunch',
           entryFees: 'Entry Fees',
           guide: 'Turkish guide service',
-          insurance: 'All insurances',
+          insurance: 'All insurances'
         },
         notIncludedInTheFee: {
           beverages: 'Beverages',
@@ -205,7 +205,7 @@ export const English = {
         title: 'DALYAN CAUNOS BOAT TRIP',
         meta: {
           description:
-            "Marmaris Turtle Beach(Iztuzu) Boat Trip is a great experience where you will have a great boat trip from Marmaris to Dalyan. You will also visit famous sites such as Turtle Beach, Temple Tombs, and Mud Baths.",
+            'Marmaris Turtle Beach(Iztuzu) Boat Trip is a great experience where you will have a great boat trip from Marmaris to Dalyan. You will also visit famous sites such as Turtle Beach, Temple Tombs, and Mud Baths.',
           keywords: 'Dalyan Tour, turtle beach, dalyan boat tour'
         },
         price: { adult: 10, childPrice: 4, infantPrice: 0 },
@@ -236,13 +236,13 @@ export const English = {
           }
         },
         firstParagraph:
-          "General information: Marmaris Turtle Beach(Iztuzu) Boat Trip is a great experience where you will have a great boat trip from Marmaris to Dalyan. You will also visit famous sites such as Turtle Beach, Temple Tombs, and Mud Baths.",
+          'General information: Marmaris Turtle Beach(Iztuzu) Boat Trip is a great experience where you will have a great boat trip from Marmaris to Dalyan. You will also visit famous sites such as Turtle Beach, Temple Tombs, and Mud Baths.',
         firstList: {
-          kaunos: "Travel the Lycian Coast admiring the rock tombs of the Kings of Kaunos",
-          mudBath: "Find healing in the mud baths and thermal springs of Dalyan",
-          carretta: "Sail to Turtle Beach, famous for its caretta carettas",
-          cam: "Travel by boat on the Dalyan Canal",
-          lunch: "Enjoy lunch on the boat"
+          kaunos: 'Travel the Lycian Coast admiring the rock tombs of the Kings of Kaunos',
+          mudBath: 'Find healing in the mud baths and thermal springs of Dalyan',
+          carretta: 'Sail to Turtle Beach, famous for its caretta carettas',
+          cam: 'Travel by boat on the Dalyan Canal',
+          lunch: 'Enjoy lunch on the boat'
         },
         secondParagraph:
           'Dalyan; It is one of the few tourism centers in the world where you will experience different experiences at the same time, which contains many beauties. Our tour will make you experience the sea, health and culture tour in the same day.',
@@ -253,7 +253,7 @@ export const English = {
           meal: 'Lunch',
           entryFees: 'Entry Fees',
           guide: 'Guiding Service',
-          insurance: 'All insurances',
+          insurance: 'All insurances'
         },
         notIncludedInTheFee: {
           beverages: 'Beverages',
@@ -262,10 +262,79 @@ export const English = {
         },
         frequentlyAskedQuestions: {
           first:
-            'We recommend that you take a towel, swimsuit, suncream, hat, sunglasses and your camera with you.',
+            'We recommend that you take a towel, swimsuit, suncream, hat, sunglasses and your camera with you.'
+        }
+      },
+      diving: {
+        title: 'MARMARIS SCUBA DIVING',
+        meta: {
+          description:
+            "Enjoy underwater scuba diving in the clear sea of Marmaris without any previous experience. Do not miss this wonderful experience in company with our most experienced instructors. Don't miss the chance to see the underwater life and do one of the most exciting water sports.",
+          keywords: 'Diving, scuba diving, water sports'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '09:30 – 17:00'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Yes'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Days',
+            description: 'Everyday'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'Lunch'
+          }
+        },
+        firstParagraph:
+          "Enjoy underwater scuba diving in the clear sea of ​​Marmaris without any previous experience. Do not miss this wonderful experience in company with our most experienced instructors. Don't miss the chance to see the underwater life and do one of the most exciting water sports.",
+        firstList: {
+          underneathSee:
+            'Experience the underwater world and watch colorful fish and other marine life',
+          suitable: 'This tour is suitable for diving beginners and experienced divers.',
+          equipment: 'All equipment, training and trainer support is provided.'
+        },
+        secondParagraph:
+          'Our morning service will take you to the most beautiful diving boat in the port after picking you up from the hotel and you will have an unforgettable experience with the most expert team. During the event, you will experience diving at 2 different points, you will be able to swim in between and enjoy the sun.',
+        tourProgram:
+          'Our boat leaves the port at 09:30 in the morning and you will be given your first training on the boat during the journey. In our first break, you will both overcome your excitement and have your first experience with our 5-6 meter dives, which will last approximately 40 minutes, accompanied by our instructors. After lunch, we will dive again for 40 minutes, up to 8-10 meters, depending on your ability to dive at our 2nd dive point. Our guests with diving experience can dive deeper. It is not considered appropriate for guests under the age of 12 to dive. Diving tours are held in different bays of Marmaris. Some of these bays and diving areas are as follows. Kadırga Cape, Hayıtlı Cape, Kutuh Cape, Yazıh Rocks, Aksu Bay, Abdi Reis Bay, İnce Cape Lighthouse, Keçi Island Lighthouse, Sarı Mehmet Cape and Chimney Cave. Since these areas are the most suitable spots for diving in the region, dives generally take place in these areas.',
+        includedInTheFee: {
+          freeTransfer: 'Free hotel transfer',
+          meal: 'Lunch',
+          equipment: 'Diving equipment',
+          training: 'Diving training',
+          guide: 'Guidance Service',
+          insurance: 'All insurances'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Beverages',
+          personalExpenses: 'Personal expenses',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'No experience required for diving, but not suitable for children under 12 years old.',
+          second:
+            'You can take your personal belongings such as camera, sunglasses, sunscreen, towel and swimming suit with you while participating in the tour.',
+          third:
+            'It will be healthier to listen carefully to the short training to be given and to ask our instructors again about the things you do not understand.',
+          forth:
+            'Your non-diving friends and family can also come. They are free to sunbathe, swim and snorkel while you enjoy your diving adventure. You can easily experience this experience on a different fee schedule than all other facilities except diving.'
         }
       }
-
     }
   }
 }

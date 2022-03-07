@@ -51,7 +51,8 @@ export const Turkish = {
         allInclusiveBoatTour: 'Her Şey Dahil Tekne Turu',
         jeepSafari: 'Jeep Safari',
         dalyanTour: 'Dalyan Caunos Tekne Turu',
-        seeAllDailyTours: 'Günlük Turların Tamamını Gör'
+        seeAllDailyTours: 'Günlük Turların Tamamını Gör',
+        diving: 'Marmaris Dalış Turu'
       },
       yachtTour: {
         title: 'En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz'
@@ -182,7 +183,7 @@ export const Turkish = {
           meal: 'Öğle Yemeği',
           entryFees: 'Limitsiz çay,kahve,su',
           guide: 'Türkçe rehberlik hizmeti',
-          insurance: 'Tüm sigortalar',
+          insurance: 'Tüm sigortalar'
         },
         notIncludedInTheFee: {
           beverages: 'İçecekler',
@@ -242,18 +243,18 @@ export const Turkish = {
           mudBath: "Dalyan'ın çamur banyolarında ve kaplıcalarında şifa bulun",
           carretta: "Caretta carettalarıyla ünlü Kaplumbağa Plajı'na yelken açın",
           cam: "Dalyan Kanalı'nda tekneyle seyahat edin",
-          lunch: "Teknede öğle yemeğinin tadını çıkarın"
+          lunch: 'Teknede öğle yemeğinin tadını çıkarın'
         },
         secondParagraph:
           'Dalyan; birçok güzelliği içinde bulunduran aynı anda farklı deneyimler yaşayacağınız dünyada sayılı turizm merkezlerinden biridir. Turumuz size deniz,sağlık ve kültür turunu aynı gün içinde yaşatacaktır. ',
         tourProgram:
-          "Sabah 08:30’da otellerinizden sizleri servislerimizle limandaki teknemize ulaştırırız. 09:00’da teknemiz limandan ayrılarak güzergah üstünde Cennet Adası Akvaryum Koyunda yüzme molası verir ve yaklaşık 2 saatlik bir yolculukla İztuzu plajına varılır. Burada verilecek molamızda bir tarafı tatlı,bir tarafı tuzlu olan İztuzu plajında denizin ve güneşin tadını çıkarabilir; dünyaca meşhur caretta kaplumbağaları ve yaşam alanlarını görebilirsiniz. Daha sonra Kral Mezarlıklarını ziyaretinde tarihin günümüzle buluşmasına tanıklık edeceksiniz. Şifa merkezi olan çamur banyosu ve termal havuz ziyaretimizden sonra teknemize Dalyan deltasında piyadeler ile nehir turu yaparak geçerek dönüş yoluna çıkılır. Saat 19:00 da Marmaris’e varış sağlanmaktadır ve otel transferlerimiz ile turumuzu tamamlarız.",
+          'Sabah 08:30’da otellerinizden sizleri servislerimizle limandaki teknemize ulaştırırız. 09:00’da teknemiz limandan ayrılarak güzergah üstünde Cennet Adası Akvaryum Koyunda yüzme molası verir ve yaklaşık 2 saatlik bir yolculukla İztuzu plajına varılır. Burada verilecek molamızda bir tarafı tatlı,bir tarafı tuzlu olan İztuzu plajında denizin ve güneşin tadını çıkarabilir; dünyaca meşhur caretta kaplumbağaları ve yaşam alanlarını görebilirsiniz. Daha sonra Kral Mezarlıklarını ziyaretinde tarihin günümüzle buluşmasına tanıklık edeceksiniz. Şifa merkezi olan çamur banyosu ve termal havuz ziyaretimizden sonra teknemize Dalyan deltasında piyadeler ile nehir turu yaparak geçerek dönüş yoluna çıkılır. Saat 19:00 da Marmaris’e varış sağlanmaktadır ve otel transferlerimiz ile turumuzu tamamlarız.',
         includedInTheFee: {
           freeTransfer: 'Ücretsiz otel transferi',
           meal: 'Öğle Yemeği',
           entryFees: 'Giriş Ücretleri',
           guide: 'Türkçe rehberlik hizmeti',
-          insurance: 'Tüm sigortalar',
+          insurance: 'Tüm sigortalar'
         },
         notIncludedInTheFee: {
           beverages: 'İçecekler',
@@ -262,7 +263,77 @@ export const Turkish = {
         },
         frequentlyAskedQuestions: {
           first:
-            'Havlu, mayo, güneş kremi,şapka,güneş gözlüğü ve kameranızı yanınıza almanızı öneririz. ',
+            'Havlu, mayo, güneş kremi,şapka,güneş gözlüğü ve kameranızı yanınıza almanızı öneririz. '
+        }
+      },
+      diving: {
+        title: 'Marmaris Dalış Turu',
+        meta: {
+          description:
+            'Daha önce hiçbir tecrübeniz olmadan Marmaris’in berrak denizinde su altı tüplü dalış yapma keyfini yaşayın. İşinde en tecrübeli hocalarımız eşliğinde bu harika deneyimi kaçırmayın. Su altındaki canlı yaşamını görme ve en heyecanlı su sporlarından birini gerçekleştirme şansını kaçırmayın.',
+          keywords: 'Diving, dalış, tüplü dalış'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '09:30 – 17:00'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Öğle Yemeği'
+          }
+        },
+        firstParagraph:
+          'Daha önce hiçbir tecrübeniz olmadan Marmaris’in berrak denizinde su altı tüplü dalış yapma keyfini yaşayın. İşinde en tecrübeli hocalarımız eşliğinde bu harika deneyimi kaçırmayın. Su altındaki canlı yaşamını görme ve en heyecanlı su sporlarından birini gerçekleştirme şansını kaçırmayın.',
+        firstList: {
+          underneathSee:
+            'Sualtı dünyasını deneyimleyin ve renkli balıkları ve diğer deniz yaşamını izleyin',
+          suitable: 'Bu tur, dalışa yeni başlayanlar ve deneyimli dalgıçlar için uygundur.',
+          equipment: 'Tüm ekipman, eğitim ve eğitmen desteği sağlanmaktadır.'
+        },
+        secondParagraph:
+          'Sabah servisimiz sizi otelden aldıktan sonra limandaki en güzel dalış teknesine getirecek ve işinde en uzman ekip ile unutulmaz bir deneyim yaşayacaksınız. Etkinlik boyunca 2 farklı noktada dalış deneyimi yaşayacak, isterseniz aralarda yüzebilir, güneşin tadını çıkarabileceksiniz. ',
+        tourProgram:
+          'Sabah 09:30’da teknemiz limandan ayrılır ve yolculuk esnasında size ilk eğitiminiz teknede verilir. İlk molamızda hocalar eşliğinde yaklaşık 40 dakika sürecek olan 5-6 metrelik dalışlarımız ile hem heyecanınızı yenmiş olacak hem de ilk deneyiminizi yaşamış olacaksınız. Öğlen yemeğinden sonra 2. Dalış noktamızda dalış yapabilme durumunuza göre 8-10 metreye kadar tekrar 40 dakikalık dalışımız gerçekleşecektir. Dalış tecrübesi olan misafirlerimiz daha derine dalabilmektedirler. 12 yaş altı misafirlerin dalış yapmaları uygun görülmemektedir. Dalış turları, Marmaris’in farklı koylarında gerçekleştirilmektedir. Bu koylar ve dalış alanlarından bazıları, şu şekildedir.Kadırga Burnu, Hayıtlı Burnu, Kutuh Burnu, Yazıh Kayalıkları, Aksu Koyu, Abdi Reis Koyu, İnce Burnu Feneri, Keçi Adası Feneri, Sarı Mehmet Burnu ve Baca Mağarası gibi alanlardır. Bu alanlar, bölgede dalış için en elverişli noktalar olduğu için genellikle dalışlar bu bölgelerde gerçekleşmektedir.',
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          meal: 'Öğle Yemeği',
+          equipment: 'Dalış ekipmanları',
+          training: 'Dalış eğitimi',
+          guide: 'Türkçe rehberlik hizmeti',
+          insurance: 'Tüm sigortalar'
+        },
+        notIncludedInTheFee: {
+          beverages: 'İçecekler',
+          personalExpenses: 'Kişisel harcamalar',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Dalış için bir tecrübe gerekmemektedir, fakat 12 yaş altı çocuklar için uygun görülmemektedir.',
+          second:
+            'Tura katılırken yanınıza kamera, güneş gözlüğü, güneş kremi, havlu ve yüzme kıyafeti gibi özel eşyalarınızı alabilirsiniz.',
+          third:
+            'Verilecek kısa eğitimi dikkatli bir şekilde dinleyerek, anlamadığınız yerleri eğitmenlerimize yeniden sormanız daha sağlıklı olacaktır.',
+          forth:
+            'Dalış yapmayan arkadaşlarınız ve aileniz de gelebilir. Siz dalış maceranızı yaşarken onlar güneşlenmekte, yüzmekte ve şnorkelle yüzmekte serbesttirler. dalış dışındaki tüm imkanlardan farklı bir ücret tarifesi üzerinden siz de bu deneyimi rahatlıkla yaşayabilirsiniz.'
         }
       }
     }
