@@ -51,7 +51,9 @@ export const English = {
         description: 'Check out our top tours',
         allInclusiveBoatTour: 'All Inclusive Boat Tour',
         jeepSafari: 'Jeep Safari',
-        seeAllDailyTours: 'See All Daily Tours'
+        seeAllDailyTours: 'See All Daily Tours',
+        diving: 'Marmaris Diving Tour',
+        horseSafari: 'Horse Safari'
       },
       yachtTour: {
         title: 'You can take a look at our most preferred private boats and yachts.'
@@ -333,6 +335,72 @@ export const English = {
             'It will be healthier to listen carefully to the short training to be given and to ask our instructors again about the things you do not understand.',
           forth:
             'Your non-diving friends and family can also come. They are free to sunbathe, swim and snorkel while you enjoy your diving adventure. You can easily experience this experience on a different fee schedule than all other facilities except diving.'
+        }
+      },
+      horseSafari: {
+        title: 'Horse Safari',
+        meta: {
+          description:
+            'Get ready to enjoy horseback riding in the wonderful nature of Marmaris. Moreover, even if you are a novice, you can easily join our tour with our expert staff and trained horses.',
+          keywords: 'horse safari, safari , riding'
+        },
+        price: { adult: 15, childPrice: 4, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '10:00 – 16:00'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Yes'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Days',
+            description: 'Everyday'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'No'
+          }
+        },
+        firstParagraph:
+          'Get ready to enjoy horseback riding in the wonderful nature of Marmaris. Moreover, even if you are a novice, you can easily join our tour with our expert staff and trained horses.',
+        firstList: {
+          guide: 'Enjoy horse riding in nature with our guides',
+          experience: 'You can have this experience even if you have never ridden a horse before.',
+          adventure:
+            'Add a new one to your adventures in Marmaris while crossing the river and the forest.'
+        },
+        secondParagraph:
+          'Our Horse Safari tour, which is organized in 4 sessions every day, is an exciting activity that lasts for a total of 3 hours with sessions between 10:00-12:00-14:00 and 16:00.',
+        tourProgram:
+          'Our shuttles from the hotels pick you up and take you to our farm after a 20-minute drive. After giving you the necessary information with our professional staff, you will have 1 hour of horse riding experience. If you have not experienced horseback riding before in this tour, which is carried out in the form of a convoy accompanied by our guides, you do not need to worry because everyone here meets this experience for the first time. You can join the program with your children; available on our pony horses trained for them. Children under the age of 8 will not be charged as they will ride the same horse as their parents.',
+        includedInTheFee: {
+          freeTransfer: 'Free hotel transfer',
+          horseTour: 'Horse Riding in Nature',
+          safetyEquipment: 'Safety Equipment',
+          guide: 'Guidance Service',
+          insurance: 'All insurances'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Food and Drinks',
+          personalExpenses: 'Personal expenses',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'The activity is not recommended for people weighing 110 kg or more, with reduced mobility or health problems.',
+          second: 'This tour is also not suitable for pregnant women.',
+          third: 'Please remember to bring comfortable shoes, seasonal clothing and sunglasses.',
+          forth: 'Children under 8 years old can only ride with a family member.'
         }
       }
     }

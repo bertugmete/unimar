@@ -15,6 +15,7 @@ import Footer from './layout/footer/Footer'
 import Contact from './pages/Contact'
 import { useTranslation } from 'react-i18next'
 import Diving from './pages/Diving'
+import HorseSafari from './pages/HorseSafari'
 
 const App = () => {
   const { i18n } = useTranslation()
@@ -45,6 +46,7 @@ const App = () => {
               <Route path="/daily-tours" render={DailyTours} />
               <Route path="/dalyan-tour" render={() => <DalyanTour />} />
               <Route path="/diving" render={() => <Diving />} />
+              <Route path="/horse-safari" render={() => <HorseSafari />} />
               <Route
                 path="/marmaris-all-inclusive-boat-tour"
                 render={() => <MarmarisAllInclusiveBoatTour />}

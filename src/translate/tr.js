@@ -52,7 +52,8 @@ export const Turkish = {
         jeepSafari: 'Jeep Safari',
         dalyanTour: 'Dalyan Caunos Tekne Turu',
         seeAllDailyTours: 'Günlük Turların Tamamını Gör',
-        diving: 'Marmaris Dalış Turu'
+        diving: 'Marmaris Dalış Turu',
+        horseSafari: 'At Safari'
       },
       yachtTour: {
         title: 'En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz'
@@ -334,6 +335,72 @@ export const Turkish = {
             'Verilecek kısa eğitimi dikkatli bir şekilde dinleyerek, anlamadığınız yerleri eğitmenlerimize yeniden sormanız daha sağlıklı olacaktır.',
           forth:
             'Dalış yapmayan arkadaşlarınız ve aileniz de gelebilir. Siz dalış maceranızı yaşarken onlar güneşlenmekte, yüzmekte ve şnorkelle yüzmekte serbesttirler. dalış dışındaki tüm imkanlardan farklı bir ücret tarifesi üzerinden siz de bu deneyimi rahatlıkla yaşayabilirsiniz.'
+        }
+      },
+      horseSafari: {
+        title: 'At Safari',
+        meta: {
+          description:
+            'Marmaris’te harika doğanın içinde binicilik keyfi yaşamaya hazır olun. Üstelik acemi olsanız dahi uzman kadromuz ve eğitimli atlarımızla turumuza rahatlıkla katılabilirsiniz.',
+          keywords: 'at safari, safari , binicilik'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '10:00 – 16:00'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Yok'
+          }
+        },
+        firstParagraph:
+          'Marmaris’te harika doğanın içinde binicilik keyfi yaşamaya hazır olun. Üstelik acemi olsanız dahi uzman kadromuz ve eğitimli atlarımızla turumuza rahatlıkla katılabilirsiniz.',
+        firstList: {
+          guide: 'Rehberlerimiz eşliğinde doğada at binme keyfini yaşayın',
+          experience: 'Daha önce ata binmemiş olsanız bile bu deneyimi yaşayabilirsiniz.',
+          adventure: 'Nehirden ve ormandan geçerken Marmaris’te ki maceralarınıza yenisini ekleyin'
+        },
+        secondParagraph:
+          'Hergün 4 seans şeklinde düzenlenen At Safari turumuz 10:00-12:00-14:00 ve 16:00 seansları ile toplam 3 saat süren heyecan dolu bir aktivitemizdir.',
+        tourProgram:
+          'Otellerden servislerimiz sizi alır ve 20 dakikalık süren bir yoldan sonra çiftliğimize ulaştırır. Profesyonel kadromuz ile size gerekli bilgileri verdikten sonra 1 saatlik at binme tecrübesine sahip olacaksınız. Rehberlerimiz eşliğinde konvoy şeklinde yapılan bu turumuzda daha önce ata binme tecrübesi yaşamadıysanız endişelenmenize gerek yoktur çünkü burdaki herkes ilk defa bu tecrübeyle tanışmaktadır. Programa çocuklarınızla katılabilirsiniz; onlar için eğitilmiş midilli atlarımızda mevcuttur. 8 yaşından küçük çocuklar aileleri ile aynı ata binecekleri için ücret alınmamaktadır.',
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          horseTour: 'Doğada At Gezintisi ',
+          safetyEquipment: 'Güvenlik Ekipmanları',
+          guide: 'Rehberlik Hizmeti',
+          insurance: 'Tüm sigortalar'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Yemek ve İçecekler',
+          personalExpenses: 'Kişisel harcamalar',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Aktivite 110 kg ve üzeri, hareket kabiliyeti kısıtlı veya sağlık sorunları olanlar için önerilmez.',
+          second: 'Bu tur hamileler için de uygun değildir.',
+          third:
+            'Lütfen rahat ayakkabılar, mevsime uygun giysiler ve güneş gözlüğü getirmeyi unutmayın.',
+          forth: '8 yaşından küçük çocuklar sadece aile üyelerinden biri ile ata binebilir.'
         }
       }
     }
