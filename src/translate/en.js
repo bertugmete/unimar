@@ -50,11 +50,13 @@ export const English = {
         title: 'Popular Daily Tours',
         description: 'Check out our top tours',
         allInclusiveBoatTour: 'All Inclusive Boat Tour',
+        dalyanTour: 'Dalyan Caunos Boat Tour',
         jeepSafari: 'Jeep Safari',
         seeAllDailyTours: 'See All Daily Tours',
         diving: 'Marmaris Diving Tour',
         horseSafari: 'Horse Safari',
-        buggySafari: 'Buggy Safari'
+        buggySafari: 'Buggy Safari',
+        bath: 'Turlish Bath'
       },
       yachtTour: {
         title: 'You can take a look at our most preferred private boats and yachts.'
@@ -470,6 +472,74 @@ export const English = {
           second:
             'We recommend that you bring extra clothes with you as you will get dirty on this trip. You can then use the showers to clean up.',
           third: 'We recommend that you bring a hat, sunglasses, sunscreen and a towel.'
+        }
+      },
+      bath: {
+        title: 'Türk Hamamı',
+        meta: {
+          description:
+            'Geleneksel Türk Hamamızda tatilinize ferah ve rahatlamış şekilde başlayabilirsiniz. Böylece cildiniz yenilenmiş bir şekilde güneşle buluşmaya  hazır olacaktır. Türk hamamlarının tarihi antik Roma’ya kadar uzanmaktadır. Bu otantik dünyaya zaman ayırarak fiziksel ve ruhsal bir arınma yaşayın.',
+          keywords: 'turkish bath, bath'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '09:00 – 19:00'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Days',
+            description: 'Everyday'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'No'
+          }
+        },
+        firstParagraph:
+          'You can start your holiday in a fresh and relaxed way in our traditional Turkish Bath. Thus, your skin will be ready to meet the sun in a renewed way. The history of Turkish baths dates back to ancient Rome. Experience a physical and spiritual purification by spending time in this authentic world.',
+        firstList: {
+          sauna: 'Let the sauna and steam rooms relax every pore of your body.',
+          hot: 'Lie down on a warm marble stone, which stimulates the body to expel toxins.',
+          oil: 'Pamper yourself with unforgettable foam and oil massages.'
+        },
+        secondParagraph:
+          'From 10:00 in the morning, we pick you up from your hotel at any time and this 2-hour authentic adventure begins.',
+        tourProgram:
+          'You will rest your soul and body with this traditional ritual from the Ottoman period. First you will sweat in the sauna and then you will get a scrub and soap massage on the marble stone. Relax with steam and heat while getting rid of your dead skin. Afterwards, our masseurs will relax all your muscles with aromatherapy oil massage and you will have a great peace. Our last service time is 18:00. We have male and female masseurs. Children under 7 years old are free. You are also provided with a locker with towels and loincloths. After your hammam service is over, we will drop you back to your hotel.',
+        includedInTheFee: {
+          freeTransfer: 'Free hotel transfer',
+          sauna: 'Sauna',
+          pouch: 'Pouch',
+          torn: 'Foam and oil massage',
+          locked: 'Locker',
+          insurance: 'All insurances'
+        },
+        notIncludedInTheFee: {
+          faceMask: 'Extra face mask',
+          otherMassage: 'Other massage services',
+          beverages: 'Beverages',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'This experience is not recommended for asthma patients or heart patients and pregnant women.',
+          second: 'Bring a swimsuit or extra underwear.',
+          third:
+            'Always walk in slippers. Otherwise, you can easily slide on the steamy wet marble floor.',
+          forth: 'Oil massage is not applied to children under 12 years of age.'
         }
       }
     }

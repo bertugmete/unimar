@@ -12,6 +12,7 @@ import JeepSafari from './assets/images/jeep-safari/Jeep-Safari-Home.jpg'
 import Diving from './assets/images/diving/Diving-Home.jpeg'
 import HorseSafari from './assets/images/horse-safari/Horse-Safari-Home.jpg'
 import BuggySafari from './assets/images/buggy-safari/BuggySafari-HomePage.jpg'
+import Bath from './assets/images/bath/Bath-Home-Page.jpg'
 import 'swiper/css/navigation'
 import 'swiper/css'
 import TourCard from '../components/tour-card/TourCard'
@@ -113,7 +114,12 @@ const HomePage = ({}) => {
                 />
               </Col>
               <Col xs="12" md="4" lg="3">
-                <TourCard image={London} name="TEKNE TURU" price="200₺" />
+                <TourCard
+                  image={Bath}
+                  name={t('home.popularTour.bath')}
+                  price={`${t('pages.bath.price.adult')} ${t('currency')}`}
+                  directTo="/bath"
+                />
               </Col>
               <Col xs="12" md="4" lg="3">
                 <TourCard image={London} name=" HİSARÖNÜ TEKNE TURU" price="200₺" />

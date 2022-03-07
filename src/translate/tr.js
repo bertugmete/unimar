@@ -54,7 +54,8 @@ export const Turkish = {
         seeAllDailyTours: 'Günlük Turların Tamamını Gör',
         diving: 'Marmaris Dalış Turu',
         horseSafari: 'At Safari',
-        buggySafari: 'Buggy Safari'
+        buggySafari: 'Buggy Safari',
+        bath: 'Türk Hamamı'
       },
       yachtTour: {
         title: 'En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz'
@@ -470,6 +471,74 @@ export const Turkish = {
           second:
             'Bu gezide kirleneceğiniz için yanınızda fazladan kıyafet getirmenizi öneririz. Daha sonra temizlenmek için duşları kullanabilirsiniz.',
           third: 'Şapka, güneş gözlüğü, güneş kremi ve havlu getirmenizi öneririz.'
+        }
+      },
+      bath: {
+        title: 'Türk Hamamı',
+        meta: {
+          description:
+            'Geleneksel Türk Hamamızda tatilinize ferah ve rahatlamış şekilde başlayabilirsiniz. Böylece cildiniz yenilenmiş bir şekilde güneşle buluşmaya  hazır olacaktır. Türk hamamlarının tarihi antik Roma’ya kadar uzanmaktadır. Bu otantik dünyaya zaman ayırarak fiziksel ve ruhsal bir arınma yaşayın.',
+          keywords: 'türk hamamı, hamam'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '09:00 – 19:00'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Yok'
+          }
+        },
+        firstParagraph:
+          'Geleneksel Türk Hamamızda tatilinize ferah ve rahatlamış şekilde başlayabilirsiniz. Böylece cildiniz yenilenmiş bir şekilde güneşle buluşmaya  hazır olacaktır. Türk hamamlarının tarihi antik Roma’ya kadar uzanmaktadır. Bu otantik dünyaya zaman ayırarak fiziksel ve ruhsal bir arınma yaşayın.',
+        firstList: {
+          sauna: 'Saunanın ve buhar odalarının vücudunuzun her gözeneğini gevşetmesine izin verin.',
+          hot: 'Vücudu toksinleri atmaya teşvik eden sıcak bir mermer taşının üzerine uzanın.',
+          oil: 'Unutamayacağınız köpük ve yağ masajlarıyla kendinizi şımartın.'
+        },
+        secondParagraph:
+          'Sabah 10:00’ dan itibaren istediğiniz saatte sizi otelinizden alıyoruz ve bu 2 saatlik otantik macera başlıyor. Osmanlı döneminden günümüze gelen bu geleneksel ritüelimiz ile ruhunuzu ve vücudunuzu dinlendireceksiniz.',
+        tourProgram:
+          'İlk olarak sauna ile ter atarak daha sonra mermer taşında kese ve sabun masajı alacaksınız. Ölü derilerinizden arınırken buhar ve sıcak ile rahatlayın. Daha sonra masörlerimiz aroma terapi yağ masajıyla tüm kaslarınızı gevşetir ve müthiş bir huzura sahip olursunuz. Son servis saatimiz 18:00’ dir. Bay ve bayan masörlerimiz mevcuttur.  7 yaşından küçük çocuklar ücretsizdir. Ayrıca size kilitli bir dolap havlu ve peştamal verilmektedir. Hamam servisiniz bittikten sonra sizi tekrar otelinize bırakıyoruz.',
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          sauna: 'Sauna',
+          pouch: 'Kese',
+          torn: 'Köpük ve yağ masajı',
+          locked: 'Kilitli dolap ',
+          insurance: 'Tüm sigortalar'
+        },
+        notIncludedInTheFee: {
+          faceMask: 'Ekstra yüz maskesi',
+          otherMassage: 'Diğer masaj hizmetleri',
+          beverages: 'İçecekler',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Bu deneyim astım hastaları veya kalp hastaları ve hamile kadınlar için önerilmez.',
+          second: 'Mayo veya ekstra iç çamaşırı getirin.',
+          third:
+            'Daima terlikle yürüyün. Aksi takdirde buharlı ıslak mermer zeminde kolayca kayabilirsiniz.',
+          forth: '12 yaşından küçük çocuklara yağ masajı uygulanmaz.'
         }
       }
     }
