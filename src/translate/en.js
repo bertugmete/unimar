@@ -57,7 +57,8 @@ export const English = {
         horseSafari: 'Horse Safari',
         buggySafari: 'Buggy Safari',
         bath: 'Turkish Bath',
-        quadSafari: 'Quad Safari'
+        quadSafari: 'Quad Safari',
+        sedirIsland: 'Marmaris Cleopatra Island Boat Trip'
       },
       yachtTour: {
         title: 'You can take a look at our most preferred private boats and yachts.'
@@ -67,6 +68,9 @@ export const English = {
       }
     },
     pages: {
+      marmarisDailyTours: {
+        title: 'Marmaris Daily Tours'
+      },
       marmarisAllInclusiveBoatTour: {
         title: 'Marmaris Boat Trip – All Inclusive',
         meta: {
@@ -608,6 +612,76 @@ export const English = {
           second:
             'We recommend that you bring extra clothes with you as you will get dirty on this trip. You can then use the showers to clean up.',
           third: 'We recommend that you bring a hat, sunglasses, sunscreen and a towel.'
+        }
+      },
+      sedirIsland: {
+        title: 'Marmaris Cleopatra Island Boat Trip',
+        meta: {
+          description:
+            'Cleopatra Island , one of the most popular places in Marmaris, is an island worth seeing with its golden sand and wonderful sea. In addition, you will admire the Cleopatra Island even more after learning about the historical ruins of the island from the Roman times and the story of the love of Marcus Antonius, one of the famous Roman commanders of the period, to Cleopatra.',
+          keywords: 'Cleopatra Island, Cleopatra Island boat trip'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Time',
+            description: '09:30 – 17:30'
+          },
+          transfer: {
+            title: 'Hotel Transfer',
+            description: 'Yes'
+          },
+          guide: {
+            title: 'Guide',
+            description: 'Yes'
+          },
+          payment: {
+            title: 'Payment',
+            description: 'On Arrival'
+          },
+          days: {
+            title: 'Tour Days',
+            description: 'Every Day'
+          },
+          meal: {
+            title: 'Meal',
+            description: 'Lunch & Soft Drinks'
+          }
+        },
+        firstParagraph:
+          'Cleopatra Island , one of the most popular places in Marmaris, is an island worth seeing with its golden sand and wonderful sea. In addition, you will admire the Cleopatra Island even more after learning about the historical ruins of the island from the Roman times and the story of the love of Marcus Antonius, one of the famous Roman commanders of the period, to Cleopatra.',
+        firstList: {
+          transfer: 'Hotel pickup and drop-off from anywhere in Marmaris',
+          meal: 'Chicken, pasta and salad lunch with unlimited drinks',
+          sunbath: 'Possibility to sunbathe, swim and snorkel all day long',
+          gokova:
+            'Travel in the Gulf of Gökova and swim where the historical legend Cleopatra said she swam with Marc Anthony',
+          away: 'Get away from crowded beaches and experience boating'
+        },
+        secondParagraph:
+          'On the Marmaris Cleopatra Island boat tour, you will discover the golden sand and history of the cedar island while cooling off in the magical deep blue sea of ​​the Gulf of Gökova. It is estimated that the organic sand, which is not found outside the Red Sea and the cedar island, was formed thousands of years ago. Authorities declared the island as a protected area in an effort to keep the beach unspoiled. Please rememner that, there are few restrictions for those visiting the beach.',
+        tourProgram:
+          'Firstly, visitors are not allowed to take sand from the island as a souvenir. Secondly, those who wish to enjoy sunbathing or swimming there, are not allowed to place their towel on the sand as it sticks on it. On our Sedir Island Boat Tour, after the hotel transfers, we take a half-hour bus ride from Marmaris to the port of Çamlı village. Afterwards, we visit İncekum, Cleopatra Beach (2 hours of free time), Fenerli Island and Lacivert Bay by boat. There are 40-minute swimming breaks in the bays where we will stop. You can be sure that this boat trip will add color to your holiday with the Cleopatra Boat Tour, which is one of the best boat tours in Marmaris. Finally, there is a return to the port at 16:30 in the evening. All guests are dropped off at the point where they were picked up in the morning with the vehicles they were picked up from. Our tour fee does not include the entrance fee to the island.',
+        includedInTheFee: {
+          freeTransfer: ' Free hotel transfer',
+          meal: 'Lunch',
+          beverages: 'Unlimited tea, coffee, water, Coke, Fanta, Sprite',
+          guide: 'Turkish guide service',
+          insurance: 'All insurances'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Other drinks',
+          entranceFee: 'Cleopatra Island entrance fee',
+          personalExpenses: 'Personal expenses',
+          privatePhotoVideo: 'Private photo and video shoots'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Vegetarian alternatives are available for lunch. Please specify your request at the time of booking.',
+          second:
+            'Since we will have plenty of swimming breaks during our boat tour; We kindly ask you to bring swimsuits, shorts, towels and also a hat, sunglasses and sunscreen to avoid exposure to the harmful rays of the sun.',
+          third:
+            'We recommend that you bring equipment such as sea goggles and flippers with you so that you can see the unique underwater beauties of the bays we will visit.'
         }
       }
     }

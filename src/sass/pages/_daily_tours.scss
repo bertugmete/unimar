@@ -1,0 +1,14 @@
+.daily-tours {
+  &__title {
+    text-align: center;
+    padding: 0.875rem;
+    &__text {
+      display: inline-block;
+      border-bottom: 3px solid #b63327;
+      font-size: 2rem;
+      line-height: 40px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  }
+}

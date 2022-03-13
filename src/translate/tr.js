@@ -56,7 +56,8 @@ export const Turkish = {
         horseSafari: 'At Safari',
         buggySafari: 'Buggy Safari',
         bath: 'Türk Hamamı',
-        quadSafari: 'ATV Safari'
+        quadSafari: 'ATV Safari',
+        sedirIsland: 'Sedir Adası Tekne Turu'
       },
       yachtTour: {
         title: 'En çok tercih edilen özel tekne ve yatlarımıza göz atabilirsiniz'
@@ -66,6 +67,9 @@ export const Turkish = {
       }
     },
     pages: {
+      marmarisDailyTours: {
+        title: 'Marmaris Günlük Turlar'
+      },
       marmarisAllInclusiveBoatTour: {
         title: 'Marmaris Tekne Turu - Her Şey Dahil',
         meta: {
@@ -608,6 +612,76 @@ export const Turkish = {
           second:
             'Bu gezide kirleneceğiniz için yanınızda fazladan kıyafet getirmenizi öneririz. Daha sonra temizlenmek için duşları kullanabilirsiniz.',
           third: 'Şapka, güneş gözlüğü, güneş kremi ve havlu getirmenizi öneririz.'
+        }
+      },
+      sedirIsland: {
+        title: 'Sedir Adası Tekne Turu',
+        meta: {
+          description:
+            'Marmaris’in en popüler yerlerinden biri olan Sedir Adası ( Kleopatra ), altın rengi kumuyla ve harika deniziyle görülmeye değer bir adadır. Ayrıca adanın Roma zamanından gelen tarihi kalıntıları ve dönemin meşhur Roma komutanlarından Marcus Antonius’ un Kleopatra’ ya olan aşkının hikayesini öğrendikten sonra Sedir Adasına daha da hayran olacaksınız.',
+          keywords: 'Sedir adası, kleopatra adası'
+        },
+        price: { adult: 150, childPrice: 40, infantPrice: 0 },
+        tourGeneralInformation: {
+          time: {
+            title: 'Tur Saati',
+            description: '09:30 – 17:30'
+          },
+          transfer: {
+            title: 'Otel Transferi',
+            description: 'Var'
+          },
+          guide: {
+            title: 'Tur Günlük Rehberi',
+            description: 'Var'
+          },
+          payment: {
+            title: 'Ödeme',
+            description: 'Havale & Gelince Öde'
+          },
+          days: {
+            title: 'Tur Günleri',
+            description: 'Her Gün'
+          },
+          meal: {
+            title: 'Yemek',
+            description: 'Öğle Yemeği & Alkolsüz İçecekler'
+          }
+        },
+        firstParagraph:
+          'Marmaris’in en popüler yerlerinden biri olan Sedir Adası ( Kleopatra ), altın rengi kumuyla ve harika deniziyle görülmeye değer bir adadır. Ayrıca adanın Roma zamanından gelen tarihi kalıntıları ve dönemin meşhur Roma komutanlarından Marcus Antonius’ un Kleopatra’ ya olan aşkının hikayesini öğrendikten sonra Sedir Adasına daha da hayran olacaksınız.',
+        firstList: {
+          transfer: 'Marmaris’in her yerinden otelden alma ve bırakma',
+          meal: 'Sınırsız içeceklerin yanında tavuk,makarna ve salata öğlen yemeğimiz',
+          sunbath: 'Gün boyu güneşlenme, denize girme ve şnorkel yapabilme imkanı',
+          gokova:
+            "Gökova Körfezi'ni gezin ve tarihi efsane Kleopatra'nın Marc Anthony ile yüzdüğünü söylediği yerde yüzün",
+          away: 'Kalabalık sahillerden uzaklaşıp tekne deneyimi yaşama'
+        },
+        secondParagraph:
+          'Marmaris Sedir Adası tekne turunda Gökova körfezinin büyülü masmavi denizinde serinlerken, sedir adasının altın kumunu ve tarihini keşfedeceksiniz. Kızıldeniz ve sedir adası dışında bulunmayan organik kumun binlerce sene öncesinden oluştuğu tahmin edilmektedir. Doğallığı halen korunan ve en güzel plajlardan biri olan Kleopatra plajına son 10 yıldır girmek yasaktır, fakat ziyaretçiler plajın ön kısmında denize girebiliyor ve bu görüntü bile ziyaretçileri fazlasıyla memnun etmektedir. ',
+        tourProgram:
+          "Sedir Adası Tekne turumuzda otel transferlerinden sonra yarım saatlik otobüs yolculuğu ile Marmaris'ten Çamlı köyü limanına gidilmektedir. Daha sonra teknemiz ile İncekum, Kleopatra Plajı ( 2 saat serbest zaman ), Fenerli Ada ve Lacivert Koy ziyaret edilmektedir. Duracağımız koylarda 40’ar dakikalık yüzme molaları verilmektedir.  Bu tekne gezimizde Marmaris'in en iyi tekne turlarından bir tanesi olan Kleopatra Tekne Turu ile tatilinize renk katacağından emin olabilirsiniz. Son olarak akşam üzeri 16:30 limana geri dönüş yapılmaktadır. Tüm misafirler sabah alındıkları araçlara ile tekrar alındıkları noktalara bırakılmaktadırlar. Tur ücretimize adaya giriş ücreti dahil değildir. 18 yaşından küçük ve 65 yaş üstü misafirler için ülkemizde ki ören yerlerinde giriş ücreti alınmamaktadır. Eğer müze kart sahibi iseniz sizde ücretsiz geçiş yapabilirsiniz. Lütfen müze kartını var ise yanınıza almayı unutmayıınız.",
+        includedInTheFee: {
+          freeTransfer: 'Ücretsiz otel transferi',
+          meal: 'Öğle Yemeği',
+          beverages: 'Limitsiz çay, kahve, su, kola, fanta, sprite',
+          guide: 'Rehberlik Hizmeti ',
+          insurance: 'Tüm sigortalar'
+        },
+        notIncludedInTheFee: {
+          beverages: 'Diğer içecekler',
+          entranceFee: 'Sedir Adası giriş ücreti',
+          personalExpenses: 'Kişisel harcamalar',
+          privatePhotoVideo: 'Özel fotoğraf ve video çekimleri'
+        },
+        frequentlyAskedQuestions: {
+          first:
+            'Öğle yemeği için vejetaryen alternatifler mevcuttur. Lütfen talebinizi rezervasyon sırasında belirtiniz.',
+          second:
+            'Tekne turumuz boyunca bolca yüzme molası vereceğimizden; mayo,şort,havlu ayrıca güneşin zararlı ışınlarına maruz kalmamak için şapka,güneş gözlüğü ve güneş kremi yanınıza almanızı önemle rica ederiz.',
+          third:
+            'Ziyaret edeceğimiz koylardaki eşsiz sualtı güzellikleri görebilmeniz için deniz gözlüğü ve palet gibi ekipmanları yanınızda getirmenizi tavsiye ederiz.'
         }
       }
     }

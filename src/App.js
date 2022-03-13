@@ -19,6 +19,7 @@ import HorseSafari from './pages/HorseSafari'
 import BuggySafari from './pages/BuggySafari'
 import Bath from './pages/Bath'
 import QuadSafari from './pages/QuadSafari'
+import SedirIsland from './pages/SedirIsland'
 
 const App = () => {
   const { i18n } = useTranslation()
@@ -46,13 +47,14 @@ const App = () => {
               <Route path="/boat-tour" render={BoatTour} />
               <Route path="/contact" render={Contact} />
               <Route path="/jeep-safari" render={() => <JeepSafari />} />
-              <Route path="/daily-tours" render={DailyTours} />
+              <Route path="/daily-tours" render={() => <DailyTours />} />
               <Route path="/dalyan-tour" render={() => <DalyanTour />} />
               <Route path="/diving" render={() => <Diving />} />
               <Route path="/horse-safari" render={() => <HorseSafari />} />
               <Route path="/buggy-safari" render={() => <BuggySafari />} />
               <Route path="/bath" render={() => <Bath />} />
               <Route path="/quad-safari" render={() => <QuadSafari />} />
+              <Route path="/sedir-island" render={() => <SedirIsland />} />
               <Route
                 path="/marmaris-all-inclusive-boat-tour"
                 render={() => <MarmarisAllInclusiveBoatTour />}
